@@ -1,0 +1,39 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Error 500 {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block body_class %} login-page {% endblock body_class %}
+
+{% block content %}
+
+  <div class="page-header" style="background-image: url('/static/assets/img/login-image.jpg');">
+    <div class="filter"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 ml-auto mr-auto">
+            <div class="card card-register">
+
+                <h3 class="title mx-auto">
+                    Error 500
+                </h3>
+                <p class="text-center">
+                    Server Error - Please contact support.
+                </p>
+                <a href="/" class="btn btn-danger btn-block btn-round">HOME</a>
+
+            </div>
+        </div>
+      </div>
+    </div>
+
+    {% include 'includes/footer-fullscreen.html' %}
+
+  </div>
+ 
+{% endblock content %}
+ 
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

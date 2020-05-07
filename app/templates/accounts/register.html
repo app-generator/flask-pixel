@@ -1,0 +1,71 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Login {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block body_class %} register-page {% endblock body_class %}
+
+{% block content %}
+
+  <div class="page-header" style="background-image: url('/static/assets/img/login-image.jpg');">
+    <div class="filter"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 ml-auto mr-auto">
+          <div class="card card-register">
+            <h3 class="title mx-auto">
+                Register
+            </h3>
+
+            <p class="text-center">
+              {% if msg %}
+                {{ msg | safe }}
+              {% else %}
+                Add your credentials 
+              {% endif %}  
+            </p>
+            <div class="social-line text-center">
+              <a href="#pablo" class="btn btn-neutral btn-facebook btn-just-icon">
+                <i class="fa fa-facebook-square"></i>
+              </a>
+              <a href="#pablo" class="btn btn-neutral btn-google btn-just-icon">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <a href="#pablo" class="btn btn-neutral btn-twitter btn-just-icon">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+
+            <form class="register-form" method="post" action="">
+        
+              {{ form.hidden_tag() }}
+              
+              <label>Username</label>
+              {{ form.username(class="form-control") }}
+
+              <label>Email</label>
+              {{ form.email(class="form-control", type="email") }}
+              
+              <label>Password</label>
+              {{ form.password(class="form-control", type="password") }}
+              
+              <button type="submit" name="register" class="btn btn-danger btn-block btn-round">Register</button>
+            </form>
+            <div class="forgot">
+              <a href={{ url_for('login') }} class="btn btn-link btn-danger">Login</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include 'includes/footer-fullscreen.html' %}
+
+  </div>
+ 
+{% endblock content %}
+ 
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

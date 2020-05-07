@@ -1,0 +1,51 @@
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="300">
+      <div class="container">
+        <div class="navbar-translate">
+          <a class="navbar-brand" href="/" rel="tooltip" title="Design Creative Tim - coded by AppSeed" data-placement="bottom">
+            Flask Boilerplate
+          </a>
+          <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar bar1"></span>
+            <span class="navbar-toggler-bar bar2"></span>
+            <span class="navbar-toggler-bar bar3"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navigation">
+          <ul class="navbar-nav">
+
+            {% if current_user.is_authenticated %}
+
+            <li class="nav-item">
+              <a href="/components.html" class="nav-link"><i class="nc-icon nc-layout-11"></i> Components</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="/profile.html" class="nav-link"><i class="nc-icon nc-book-bookmark"></i> Profile</a>
+            </li>
+
+            <li class="nav-item">
+              <a href={{ url_for('logout') }} class="nav-link">Logout</a>
+            </li>
+              
+            {% else %}
+
+              <li class="nav-item">
+                <a href="https://appseed.us/boilerplate-code/flask" class="nav-link">Product Info</a>
+              </li>
+  
+            {% endif %} 
+
+            <li class="nav-item">
+              <a class="nav-link" rel="tooltip" title="Support" 
+                 data-placement="bottom" 
+                 href="https://appseed.us/support" target="_blank">
+                <i class="fa fa-rocket"></i>
+                <p class="d-lg-none">Support</p>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>

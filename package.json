@@ -1,0 +1,28 @@
+{
+    "name": "boilerplate-code-flask",
+    "version": "0.0.1",
+    "description": "Open-source template project - Flask Boilerplate Code.",
+    "main": "gruntfile.js",
+    "devDependencies": {
+        "rimraf": "^2.5.2"
+    },
+    "engines": {
+        "node": ">=0.10.1"
+    },
+    "scripts": {
+        "start"  : "flask run",
+        "shell"  : "flask shell"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/app-generator/boilerplate-code-flask"
+    },
+    "bugs": {
+        "url": "https://github.com/app-generator/boilerplate-code-flask/issues",
+        "email": "support@appseed.us"
+    },
+    "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",
+    "license": "MIT",
+    "dependencies": {
+    }
+}
