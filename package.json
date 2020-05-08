@@ -1,5 +1,5 @@
 {
-    "name": "boilerplate-code-flask",
+    "name": "flask-pixel-bootstrap-uikit",
     "version": "0.0.1",
     "description": "Open-source template project - Flask Boilerplate Code.",
     "main": "gruntfile.js",
@@ -15,10 +15,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/app-generator/boilerplate-code-flask"
+        "url": "https://github.com/app-generator/flask-pixel-bootstrap-uikit"
     },
     "bugs": {
-        "url": "https://github.com/app-generator/boilerplate-code-flask/issues",
+        "url": "https://github.com/app-generator/flask-pixel-bootstrap-uikit/issues",
         "email": "support@appseed.us"
     },
     "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",

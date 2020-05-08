@@ -1,0 +1,167 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Toasts {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+        <!-- Hero -->
+        <div class="section-header pb-6 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="display-3 mb-4">Toasts</h1>
+                        <p class="lead mb-5">Push notifications to your visitors with a toast, a lightweight and easily customizable alert message.</p>
+                        <div class="alert alert-secondary align-items-center" role="alert">
+                            <span class="alert-inner--icon"><span class="fas fa-info-circle"></span></span>
+                            <a class="font-weight-bold" href="https://themesberg.com/docs/pixel-bootstrap/components/toasts/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Hero -->
+        
+        <!-- Section -->
+        <div class="section section-md">
+            <div class="container">
+                <div class="row mt-4">
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header text-primary">
+                                <span class="fab fa-bootstrap"></span>
+                                <strong class="mr-auto ml-2">Bootstrap</strong>
+                                <span class="text-small">11 mins ago</span>
+                                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="toast-body">
+                            Hello, world! This is a toast message.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="toast bg-primary text-white fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header text-primary">
+                                <span class="fab fa-bootstrap"></span>
+                                <strong class="mr-auto ml-2">Bootstrap</strong>
+                                <span class="text-small">11 mins ago</span>
+                                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="toast-body">
+                            Hello, world! This is a toast message.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="toast bg-tertiary text-white fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header bg-tertiary text-white">
+                                <span class="fab fa-bootstrap"></span>
+                                <strong class="mr-auto ml-2">Bootstrap</strong>
+                                <span class="text-small">11 mins ago</span>
+                                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                    <span class="text-white" aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="toast-body">
+                            Hello, world! This is a toast message.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Section -->
+
+        <section class="section section-lg bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h2 class="h1 font-weight-light mb-3"><strong>Open source</strong> project</h2>
+                        <p class="lead mb-4">Pixel Lite is an open source UI Kit that is licensed under the very permissive MIT License. Consider giving us a star on the official Github repository to spread the news!</p>
+                        <div class="d-flex align-items-center">
+                            <a href="https://github.com/themesberg/pixel-bootstrap-ui-kit" target="_blank" class="btn btn-tertiary mr-4 animate-up-2">
+                                View on GitHub
+                            </a>
+                            <!-- Place this tag where you want the button to render. -->
+                            <div class="mt-2">
+                                <!-- Place this tag where you want the button to render. -->
+                                <a class="github-button" href="https://github.com/themesberg/pixel-bootstrap-ui-kit" data-color-scheme="no-preference: dark; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star themesberg/pixel-bootstrap-ui-kit on GitHub">Star</a>                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="github-big-icon">
+                        <span class="fab fa-github"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-6">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="card border-light p-4">
+                            <!-- Header -->
+                            <div class="card-header bg-white pb-0">
+                                <span class="d-block">
+                                    <span class="h3 text-primary font-weight-bold align-top">
+                                        Free Version
+                                    </span>
+                                </span>
+                            </div>
+                            <!-- End Header -->
+                            <!-- Content -->
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush price-list">
+                                    <li class="list-group-item bg-white pl-0"><strong>80</strong> Components</li>
+                                    <li class="list-group-item bg-white pl-0"><strong>4</strong> Example Pages</li>
+                                    <li class="list-group-item bg-white pl-0"><span class="icon-danger"><span class="fas fa-times-circle"></span></span> Uncoventional cards</li>
+                                    <li class="list-group-item bg-white pl-0"><span class="icon-danger"><span class="fas fa-times-circle"></span></span> Timelines</li>
+                                    <li class="list-group-item bg-white pl-0"><span class="icon-danger"><span class="fas fa-times-circle"></span></span> E-commerce</li>
+                                    <li class="list-group-item bg-white pl-0"><span class="icon-danger"><span class="fas fa-times-circle"></span></span> Charts</li>
+                                    <li class="list-group-item bg-white pl-0 pb-0"><span class="icon-danger"><span class="fas fa-times-circle"></span></span> Premium Support</li>
+                                </ul>
+                            </div>
+                            <!-- End Content -->
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0 mt-lg-n5">
+                        <div class="card border-light p-4">
+                            <!-- Header -->
+                            <div class="card-header bg-white pb-0">
+                                <span class="d-block">
+                                    <span class="h3 text-primary font-weight-bold align-top">
+                                    Pro Version
+                                    </span>
+                                </span>
+                            </div>
+                            <!-- End Header -->
+                            <!-- Content -->
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush price-list mb-5">
+                                    <li class="list-group-item bg-white pl-0"><strong>1000+</strong> Components</li>
+                                    <li class="list-group-item bg-white pl-0"><strong>17</strong> Example Pages</li>
+                                    <li class="list-group-item bg-white pl-0"><span class="icon-success"><span class="fas fa-check-circle"></span></span> Uncoventional cards</li>
+                                    <li class="list-group-item bg-white pl-0"><span class="icon-success"><span class="fas fa-check-circle"></span></span> Timelines</li>
+                                    <li class="list-group-item bg-white pl-0"><span class="icon-success"><span class="fas fa-check-circle"></span></span> E-commerce</li>
+                                    <li class="list-group-item bg-white pl-0"><span class="icon-success"><span class="fas fa-check-circle"></span></span> Charts</li>
+                                    <li class="list-group-item bg-white border-0 pl-0 pb-0"><span class="icon-success"><span class="fas fa-check-circle"></span></span> Premium Support</li>
+                                </ul>
+                                <a href="https://demo.themesberg.com/pixel-pro/" target="_blank" class="btn btn-block btn-tertiary mr-4 animate-up-2">
+                                    Live demo <span class="fas fa-external-link-alt ml-2"></span>
+                                </a>
+                            </div>
+                            <!-- End Content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

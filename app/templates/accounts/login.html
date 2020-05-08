@@ -1,68 +1,95 @@
-{% extends "layouts/base.html" %}
+{% extends "layouts/base-fullscreen.html" %}
 
 {% block title %} Login {% endblock %} 
 
 <!-- Specific Page CSS goes HERE  -->
 {% block stylesheets %}{% endblock stylesheets %}
 
-{% block body_class %} login-page {% endblock body_class %}
-
 {% block content %}
 
-  <div class="page-header" style="background-image: url('/static/assets/img/login-image.jpg');">
-    <div class="filter"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 ml-auto mr-auto">
-          <div class="card card-register">
-            <h3 class="title mx-auto">
-                Login
-            </h3>
+    <!-- Section -->
+    <section class="min-vh-100 d-flex align-items-center bg-soft">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <div class="signin-inner mt-3 mt-lg-0 bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-100 fmxw-500">
+                        <div class="text-center text-md-center mb-4 mt-md-0">
+                            <h1 class="mb-0 h3">
+                                <a href="https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit" target="_blank">Flask Pixel UI</a> - Login
+                            </h1>
+                            <br />
+                            <span class="font-weight-normal">
+                                {% if msg %}
+                                    {{ msg | safe }}
+                                {% else %}
+                                    Use default credentials: <strong>test / pass</strong>
+                                {% endif %}                                  
+                            </span>
+                        </div>
+                        
+                        <form method="post" action="" class="mt-4">
 
-            <p class="text-center">
-              {% if msg %}
-                {{ msg | safe }}
-              {% else %}
-                Use default credentials: <strong>test / pass</strong>
-              {% endif %}  
-            </p>
-            <div class="social-line text-center">
-              <a href="#pablo" class="btn btn-neutral btn-facebook btn-just-icon">
-                <i class="fa fa-facebook-square"></i>
-              </a>
-              <a href="#pablo" class="btn btn-neutral btn-google btn-just-icon">
-                <i class="fa fa-google-plus"></i>
-              </a>
-              <a href="#pablo" class="btn btn-neutral btn-twitter btn-just-icon">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </div>
+                            {{ form.hidden_tag() }}
 
-            <form class="register-form" method="post" action="">
-        
-              {{ form.hidden_tag() }}
-              
-              <label>Username</label>
-              {{ form.username(class="form-control") }}
-              
-              <label>Password</label>
-              {{ form.password(class="form-control", type="password") }}
-              
-              <button type="submit" name="login" class="btn btn-danger btn-block btn-round">Login</button>
-            </form>
-            <div class="forgot">
-              <a href={{ url_for('register') }} class="btn btn-link btn-danger">Register</a>
+                            <!-- Form -->
+                            <div class="form-group">
+                                <label for="exampleInputIcon3">Username</label>
+                                <div class="input-group mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><span class="fas fa-user"></span></span>
+                                    </div>
+                                    {{ form.username(class="form-control") }}
+                                </div>
+                            </div>
+                            <!-- End of Form -->
+
+                            <div class="form-group">
+                                <!-- Form -->
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <div class="input-group mb-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
+                                        </div>
+                                        {{ form.password(class="form-control", type="password") }}
+                                    </div>
+                                </div>
+                                <!-- End of Form -->
+                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                    <div class="form-check m-0">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                                        <label class="form-check-label" for="defaultCheck5">
+                                            Remember me
+                                        </label>
+                                    </div>
+                                    <div><a href="#" class="small text-right">Lost password?</a></div>
+                                </div>
+                            </div>
+                            <button type="submit" name="login" class="btn btn-block btn-primary">Sign in</button>
+                        </form>
+
+                        <div class="d-block d-sm-flex justify-content-center align-items-center mt-4">
+                            <span class="font-weight-normal">
+                                Not registered?
+                                <a href={{ url_for('register') }} class="font-weight-bold">Create account</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <br />    
+                </div>
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <br />    
+                    <span class="text-muted font-small"> 
+                        &copy; <a target="_blank" href="https://themesberg.com/">Themesberg</a> - coded by <a target="_blank" href="https://appseed.us">AppSeed</a>.
+                    </span>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
+    </section>
 
-    {% include 'includes/footer-fullscreen.html' %}
-
-  </div>
- 
 {% endblock content %}
- 
+
 <!-- Specific Page JS goes HERE  -->
 {% block javascripts %}{% endblock javascripts %}

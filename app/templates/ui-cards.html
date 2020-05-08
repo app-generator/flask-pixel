@@ -1,0 +1,205 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Cards {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Hero -->
+    <div class="section-header pb-6 bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 text-center">
+                    <h1 class="display-3 mb-4">Cards</h1>
+                    <p class="lead mb-5">A <span class="font-weight-bold">card</span> is a flexible content container. It includes options for headers and footers, a wide variety of content and powerful display options.</p>
+                    <div class="alert alert-secondary align-items-center" role="alert">
+                        <span class="alert-inner--icon"><span class="fas fa-info-circle"></span></span>
+                        <a class="font-weight-bold" href="https://themesberg.com/docs/pixel-bootstrap/components/cards/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Hero -->
+        
+    <!--End of Title section-->
+    <div class="section section-md">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="card border-light">
+                        <img src="/static/assets/img/blog/image-1.jpg" class="card-img-top rounded-top" alt="Office space">
+                        <div class="card-body">
+                            <span class="h6 icon-tertiary small"><span class="fas fa-medal mr-2"></span>Awards</span>
+                            <h2 class="h5 mt-3">We partnered up with Ildiesign</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary btn-sm">Read All</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-7 mb-lg-0">
+                    <div class="card">
+                        <div class="position-relative">
+                            <img src="/static/assets/img/team/profile-picture-1.jpg" class="card-img-top" alt="Neil Sims">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light">
+                            <h2 class="h5">Neil D. Sims</h2>
+                            <span class="text-gray"><span class="fas fa-map-marker-alt mr-2"></span>New York,
+                                USA</span>
+                            <p class="mt-3">Neil drives the technical strategy of the platform and brand.</p>
+                            <button class="btn btn-secondary btn-icon">
+                                <span class="mr-1"><span class="far fa-user"></span></span>
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="card border-light text-center">
+                        <!-- Header -->
+                        <div class="card-header bg-white p-3">
+                            <h2 class="h3 text-primary mb-4">Basic</h2>
+                            <span class="d-block">
+                                <span class="display-1 text-dark font-weight-bold">
+                                    <span class="align-top font-medium">$</span>19
+                            </span>
+                            <span class="d-block text-gray font-small">/ month</span>
+                            </span>
+                        </div>
+                        <!-- End Header -->
+                        <!-- Content -->
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-4">
+                                <li class="list-item pb-3"><strong>1</strong> free domain</li>
+                                <li class="list-item pb-3">Storage space: <strong>5GB</strong></li>
+                                <li class="list-item pb-3"><strong>100k</strong> monthly visitors</li>
+                                <li class="list-item pb-3">One-click staging site</li>
+                                <li class="list-item pb-3">Search engine wizard </li>
+                                <li class="list-item pb-3">Community support</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary btn-block animate-up-1">Start
+                                Starter</button>
+                        </div>
+                        <!-- End Content -->
+                    </div>
+                </div>
+                <div class="col-12 mt-5">
+                    <div class="card border-light px-4 py-5">
+                        <div class="card-header bg-white text-center pb-0">
+                            <h2 class="h1 mb-3">Get the most out of your network.</h2>
+                            <p class="mb-5 lead">
+                                Contact management designed for teams and individuals
+                            </p>
+                        </div>
+                        <div class="card-body pt-2 px-0 px-lg-7">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-md-8">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail8">Email address</label>
+                                        <div class="d-flex flex-row justify-content-center">
+                                            <div class="input-group">
+                                                <input class="form-control form-control-xl" id="exampleInputEmail8" aria-label="Email address" placeholder="Your email address" type="email">
+                                                <div class="input-group-prepend">
+                                                    <button type="submit" class="btn btn-primary rounded-right">Subscribe</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section section-lg bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <h2 class="h1 font-weight-light mb-3"><strong>Open source</strong> project</h2>
+                    <p class="lead mb-4">Pixel Lite is an open source UI Kit that is licensed under the very permissive MIT License. Consider giving us a star on the official Github repository to spread the news!</p>
+                    <div class="d-flex align-items-center">
+                        <a href="https://github.com/themesberg/pixel-bootstrap-ui-kit" target="_blank" class="btn btn-tertiary mr-4 animate-up-2">
+                            View on GitHub
+                        </a>
+                        <!-- Place this tag where you want the button to render. -->
+                        <div class="mt-2">
+                            <!-- Place this tag where you want the button to render. -->
+                            <a class="github-button" href="https://github.com/themesberg/pixel-bootstrap-ui-kit" data-color-scheme="no-preference: dark; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star themesberg/pixel-bootstrap-ui-kit on GitHub">Star</a>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="github-big-icon">
+                    <span class="fab fa-github"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-6">
+                <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="card border-light p-4">
+                        <!-- Header -->
+                        <div class="card-header bg-white pb-0">
+                            <span class="d-block">
+                                <span class="h3 text-primary font-weight-bold align-top">
+                                    Free Version
+                                </span>
+                            </span>
+                        </div>
+                        <!-- End Header -->
+                        <!-- Content -->
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush price-list">
+                                <li class="list-group-item bg-white pl-0"><strong>80</strong> Components</li>
+                                <li class="list-group-item bg-white pl-0"><strong>4</strong> Example Pages</li>
+                                <li class="list-group-item bg-white pl-0"><span class="icon-danger"><span class="fas fa-times-circle"></span></span> Uncoventional cards</li>
+                                <li class="list-group-item bg-white pl-0"><span class="icon-danger"><span class="fas fa-times-circle"></span></span> Timelines</li>
+                                <li class="list-group-item bg-white pl-0"><span class="icon-danger"><span class="fas fa-times-circle"></span></span> E-commerce</li>
+                                <li class="list-group-item bg-white pl-0"><span class="icon-danger"><span class="fas fa-times-circle"></span></span> Charts</li>
+                                <li class="list-group-item bg-white pl-0 pb-0"><span class="icon-danger"><span class="fas fa-times-circle"></span></span> Premium Support</li>
+                            </ul>
+                        </div>
+                        <!-- End Content -->
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0 mt-lg-n5">
+                    <div class="card border-light p-4">
+                        <!-- Header -->
+                        <div class="card-header bg-white pb-0">
+                            <span class="d-block">
+                                <span class="h3 text-primary font-weight-bold align-top">
+                                Pro Version
+                                </span>
+                            </span>
+                        </div>
+                        <!-- End Header -->
+                        <!-- Content -->
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush price-list mb-5">
+                                <li class="list-group-item bg-white pl-0"><strong>1000+</strong> Components</li>
+                                <li class="list-group-item bg-white pl-0"><strong>17</strong> Example Pages</li>
+                                <li class="list-group-item bg-white pl-0"><span class="icon-success"><span class="fas fa-check-circle"></span></span> Uncoventional cards</li>
+                                <li class="list-group-item bg-white pl-0"><span class="icon-success"><span class="fas fa-check-circle"></span></span> Timelines</li>
+                                <li class="list-group-item bg-white pl-0"><span class="icon-success"><span class="fas fa-check-circle"></span></span> E-commerce</li>
+                                <li class="list-group-item bg-white pl-0"><span class="icon-success"><span class="fas fa-check-circle"></span></span> Charts</li>
+                                <li class="list-group-item bg-white border-0 pl-0 pb-0"><span class="icon-success"><span class="fas fa-check-circle"></span></span> Premium Support</li>
+                            </ul>
+                            <a href="https://demo.themesberg.com/pixel-pro/" target="_blank" class="btn btn-block btn-tertiary mr-4 animate-up-2">
+                                Live demo <span class="fas fa-external-link-alt ml-2"></span>
+                            </a>
+                        </div>
+                        <!-- End Content -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
