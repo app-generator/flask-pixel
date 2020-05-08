@@ -16,6 +16,7 @@
 
 - LIVE Demo: [Flask Pixel UI Kit](https://flask-pixel-bootstrap-uikit.appseed.us/)
 - Product Page: [Flask Pixel UI Kit](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit)
+- For more [Flask Apps](https://appseed.us/apps/flask-apps/) access the AppSeed platform.
 
 <br />
 
@@ -112,34 +113,34 @@ The project has a super simple structure, represented as bellow:
     |--- app/__init__.py
     |--- app/
     |     | --- <static/assets>
-    |     |         |
-    |     |         |--- <css>
-    |     |         |--- <Js>
-    |     |         |--- <img>
+    |     |       |
+    |     |       |--- <css>
+    |     |       |--- <Js>
+    |     |       |--- <img>
     |     |
     |     | --- <templates>
-    |     |         |
-    |     |         |---<includes>                     # Page chunks, components
-    |     |         |       |
-    |     |         |       | --- navigation.html      # Top bar
-    |     |         |       | --- sidebar.html         # Left sidebar
-    |     |         |       | --- scripts.html         # JS scripts common to all pages
-    |     |         |       | --- footer.html          # The common footer
-    |     |         |
-    |     |         |---<layouts>                      # App Layouts (the master pages)
-    |     |         |       |
-    |     |         |       | --- base.html            # Used by common pages like index, UI
-    |     |         |       | --- base-fullscreen.html # Used by auth pages (login, register)
-    |     |         |
-    |     |         |---<accounts>                     # Auth Pages (login, register)
-    |     |         |       |
-    |     |         |       | --- login.html           # Use layout `base-fullscreen.html`
-    |     |         |       | --- register.html        # Use layout `base-fullscreen.html`  
-    |     |         |
-    |     |     index.html                             # The default page
-    |     |     page-404.html                          # Error 404 page (page not found)
-    |     |     page-500.html                          # Error 500 page (server error)
-    |     |       *.html                               # All other pages provided by the UI Kit
+    |     |       |
+    |     |       |---<includes>                   # Page chunks, components
+    |     |       |     |
+    |     |       |     | --- navigation.html      # Top bar
+    |     |       |     | --- sidebar.html         # Left sidebar
+    |     |       |     | --- scripts.html         # JS scripts common to all pages
+    |     |       |     | --- footer.html          # The common footer
+    |     |       |
+    |     |       |---<layouts>                    # App Layouts (the master pages)
+    |     |       |     |
+    |     |       |     | --- base.html            # Used by common pages like index, UI
+    |     |       |     | --- base-fullscreen.html # Used by auth pages (login, register)
+    |     |       |
+    |     |       |---<accounts>                   # Auth Pages (login, register)
+    |     |       |     |
+    |     |       |     | --- login.html           # Use layout `base-fullscreen.html`
+    |     |       |     | --- register.html        # Use layout `base-fullscreen.html`  
+    |     |       |
+    |     |    index.html                          # The default page
+    |     |    page-404.html                       # Error 404 page (page not found)
+    |     |    page-500.html                       # Error 500 page (server error)
+    |     |    *.html                              # All other pages provided by the UI Kit
     |
     |--- requirements.txt
     |
@@ -184,7 +185,7 @@ A dashboard is a set of pages that are easy to read and offer information to the
 
 ## [Pixel Lite](https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit)
 
-Pixel is a free, fully responsive and modern Bootstrap 4 UI Kit that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs. - provided by **[Themesberg](https://themesberg.com/?ref=appseed)** agency.
+Pixel is a free, fully responsive and modern Bootstrap 4 UI Kit that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs - *crafted by [Themesberg](https://themesberg.com/?ref=appseed)*.
 
 <br />
 
