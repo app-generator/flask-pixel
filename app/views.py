@@ -1,6 +1,5 @@
 # -*- encoding: utf-8 -*-
 """
-MIT License
 Copyright (c) 2019 - present AppSeed.us
 """
 
@@ -61,7 +60,7 @@ def register():
         
         else:         
 
-            pw_hash = password #bc.generate_password_hash(password)
+            pw_hash = bc.generate_password_hash(password)
 
             user = User(username, email, pw_hash)
 
@@ -96,8 +95,7 @@ def login():
 
         if user:
             
-            #if bc.check_password_hash(user.password, password):
-            if user.password == password:
+            if bc.check_password_hash(user.password, password):
                 login_user(user)
                 return redirect(url_for('index'))
             else:
