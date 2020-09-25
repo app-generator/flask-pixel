@@ -8,15 +8,14 @@
 - SQLite database, Flask-SQLAlchemy ORM
 - Session-Based auth flow (login, register)
 - UI Kit: **[Pixel UI kit](https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit)** by **Themesberg**
-- MIT License
-- Free support via **Github** issues tracker
-- Paid 24/7 Live Support via [Discord](https://discord.gg/fZC6hup).
+- Support via **Github** and [Discord](https://discord.gg/fZC6hup).
+
+<br />
 
 > Links
 
-- LIVE Demo: [Flask Pixel UI Kit](https://flask-pixel-bootstrap-uikit.appseed.us/)
-- Product Page: [Flask Pixel UI Kit](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit)
-- For more [Flask Apps](https://appseed.us/apps/flask-apps/) access the AppSeed platform.
+- [Flask Pixel UI Kit](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit) - product page
+- [Flask Pixel UI Kit - Demo](https://flask-pixel-bootstrap-uikit.appseed.us/) - LIVE Deployment
 
 <br />
 
