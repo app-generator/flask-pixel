@@ -38,7 +38,7 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text"><span class="fas fa-user"></span></span>
                                     </div>
-                                    <input class="form-control" placeholder="Username" type="text" name="username" value="test">
+                                    {{ form.username(class="form-control") }}
                                 </div>
                             </div>
                             <!-- End of Form -->
@@ -51,7 +51,7 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
                                         </div>
-                                        <input class="form-control" placeholder="Password" type="password" name="password" value="pass">
+                                        {{ form.password(class="form-control", type="password") }}
                                     </div>
                                 </div>
                                 <!-- End of Form -->
