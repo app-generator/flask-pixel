@@ -1,0 +1,156 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Progress Bars {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Hero -->
+    <div class="section-header pb-6 bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 text-center">
+                    <h1 class="display-3 mb-4">Progress Bars</h1>
+                    <p class="lead mb-5">Progress components are built with two HTML elements, some CSS to set the width, and a few attributes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Hero -->
+    
+    <!-- Section -->
+    <div class="section section-md">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="progress-wrapper">
+                        <div class="progress-info">
+                            <div class="progress-label">
+                                <span class="text-primary">Primary Color</span>
+                            </div>
+                            <div class="progress-percentage">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <div class="progress-info">
+                            <div class="progress-label">
+                                <span class="text-primary">Secondary Color</span>
+                            </div>
+                            <div class="progress-percentage">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <div class="progress-info">
+                            <div class="progress-label">
+                                <span class="text-primary">Tertiary Color</span>
+                            </div>
+                            <div class="progress-percentage">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-tertiary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <div class="progress-info">
+                            <div class="progress-label">
+                                <span class="text-primary">Dark Color</span>
+                            </div>
+                            <div class="progress-percentage">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <div class="progress-info">
+                            <div class="progress-label">
+                                <span class="text-primary">Gray Color</span>
+                            </div>
+                            <div class="progress-percentage">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-gray" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <div class="progress-info">
+                            <div class="progress-label">
+                                <span class="text-primary">Success Bar</span>
+                            </div>
+                            <div class="progress-percentage">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <div class="progress-info">
+                            <div class="progress-label">
+                                <span class="text-primary">Info Bar</span>
+                            </div>
+                            <div class="progress-percentage">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <div class="progress-info">
+                            <div class="progress-label">
+                                <span class="text-primary">Danger Bar</span>
+                            </div>
+                            <div class="progress-percentage">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-wrapper">
+                        <div class="progress-info">
+                            <div class="progress-label">
+                                <span class="text-primary">Warning Bar</span>
+                            </div>
+                            <div class="progress-percentage">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Section -->
+
+    {% include 'includes/free-vs-pro.html' %}
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

@@ -1,0 +1,95 @@
+{% extends "layouts/base-fullscreen.html" %}
+
+{% block title %} Login {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Section -->
+    <section class="min-vh-100 d-flex align-items-center bg-soft">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <div class="signin-inner mt-3 mt-lg-0 bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-100 fmxw-500">
+                        <div class="text-center text-md-center mb-4 mt-md-0">
+                            <h1 class="mb-0 h3">
+                                <a href="https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit" target="_blank">Flask Pixel UI</a> - Login
+                            </h1>
+                            <br />
+                            <span class="font-weight-normal">
+                                {% if msg %}
+                                    {{ msg | safe }}
+                                {% else %}
+                                    Add your credentials
+                                {% endif %}                                  
+                            </span>
+                        </div>
+                        
+                        <form method="post" action="" class="mt-4">
+
+                            {{ form.hidden_tag() }}
+
+                            <!-- Form -->
+                            <div class="form-group">
+                                <label for="exampleInputIcon3">Username</label>
+                                <div class="input-group mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><span class="fas fa-user"></span></span>
+                                    </div>
+                                    {{ form.username(class="form-control") }}
+                                </div>
+                            </div>
+                            <!-- End of Form -->
+
+                            <div class="form-group">
+                                <!-- Form -->
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <div class="input-group mb-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
+                                        </div>
+                                        {{ form.password(class="form-control", type="password") }}
+                                    </div>
+                                </div>
+                                <!-- End of Form -->
+                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                    <div class="form-check m-0">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                                        <label class="form-check-label" for="defaultCheck5">
+                                            Remember me
+                                        </label>
+                                    </div>
+                                    <div><a href="#" class="small text-right">Lost password?</a></div>
+                                </div>
+                            </div>
+                            <button type="submit" name="login" class="btn btn-block btn-primary">Sign in</button>
+                        </form>
+
+                        <div class="d-block d-sm-flex justify-content-center align-items-center mt-4">
+                            <span class="font-weight-normal">
+                                Not registered?
+                                <a href="{{ url_for('register') }}" class="font-weight-bold">Create account</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <br />    
+                </div>
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <br />    
+                    <span class="text-muted font-small"> 
+                        &copy; <a target="_blank" href="https://themesberg.com/">Themesberg</a> - coded by <a target="_blank" href="https://appseed.us">AppSeed</a>.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

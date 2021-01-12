@@ -1,0 +1,86 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Accordions {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Hero -->
+    <div class="section-header pb-6 bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 text-center">
+                    <h1 class="display-3 mb-4">Accordions</h1>
+                    <p class="lead mb-5">Using the <span class="font-weight-bold">card</span> component, you can extend the default collapse behavior to create an accordion. For properly accordion style, be sure to use <span class="font-weight-bold">.accordion</span> as a wrapper.</p>
+                    <div class="alert alert-secondary align-items-center" role="alert">
+                        <span class="alert-inner--icon"><span class="fas fa-info-circle"></span></span>
+                        <a class="font-weight-bold" href="https://themesberg.com/docs/pixel-bootstrap/components/accordions/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Hero -->
+    
+    <!--End of Title section-->
+    <div class="section section-md">
+        <div class="container">
+            <div class="row justify-content-center mt-4">
+                <div class="col-12 col-lg-8">
+                    <!--Accordion-->
+                    <div class="accordion" id="accordionExample1">
+                        <div class="card card-sm card-body border-light mb-0">
+                            <a href="#panel-1" data-target="#panel-1" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+                                <span class="h6 mb-0 font-weight-bold">Our Company</span>
+                                <span class="icon"><span class="fas fa-plus"></span></span>
+                            </a>
+                            <div class="collapse" id="panel-1">
+                                <div class="pt-3">
+                                    <p class="mb-0">
+                                        At Themesberg, our mission has always been focused on bringing openness and transparency to the design process. We've always believed that by providing a space where designers can share ongoing work not only empowers them to make better products, it also
+                                        helps them grow. We're proud to be a part of creating a more open culture and to continue building a product that supports this vision.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-sm card-body border-light mb-0">
+                            <a href="#panel-2" data-target="#panel-2" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+                                <span class="h6 mb-0 font-weight-bold">Pixel Components</span>
+                                <span class="icon"><span class="fas fa-plus"></span></span>
+                            </a>
+                            <div class="collapse" id="panel-2">
+                                <div class="pt-3">
+                                    <p class="mb-0">
+                                        At Themesberg, our mission has always been focused on bringing openness and transparency to the design process. We've always believed that by providing a space where designers can share ongoing work not only empowers them to make better products, it also
+                                        helps them grow. We're proud to be a part of creating a more open culture and to continue building a product that supports this vision. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-sm card-body border-light">
+                            <a href="#panel-3" data-target="#panel-3" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+                                <span class="h6 mb-0 font-weight-bold">Licenses</span>
+                                <span class="icon"><span class="fas fa-plus"></span></span>
+                            </a>
+                            <div class="collapse" id="panel-3">
+                                <div class="pt-3">
+                                    <p class="mb-0">
+                                        At Themesberg, our mission has always been focused on bringing openness and transparency to the design process. We've always believed that by providing a space where designers can share ongoing work not only empowers them to make better products, it also
+                                        helps them grow. We're proud to be a part of creating a more open culture and to continue building a product that supports this vision. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of Accordion-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'includes/free-vs-pro.html' %}
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

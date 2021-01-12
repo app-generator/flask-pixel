@@ -1,0 +1,86 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Toasts {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Hero -->
+    <div class="section-header pb-6 bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 text-center">
+                    <h1 class="display-3 mb-4">Toasts</h1>
+                    <p class="lead mb-5">Push notifications to your visitors with a toast, a lightweight and easily customizable alert message.</p>
+                    <div class="alert alert-secondary align-items-center" role="alert">
+                        <span class="alert-inner--icon"><span class="fas fa-info-circle"></span></span>
+                        <a class="font-weight-bold" href="https://themesberg.com/docs/pixel-bootstrap/components/toasts/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Hero -->
+    
+    <!-- Section -->
+    <div class="section section-md">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header text-primary">
+                            <span class="fab fa-bootstrap"></span>
+                            <strong class="mr-auto ml-2">Bootstrap</strong>
+                            <span class="text-small">11 mins ago</span>
+                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="toast-body">
+                        Hello, world! This is a toast message.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <div class="toast bg-primary text-white fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header text-primary">
+                            <span class="fab fa-bootstrap"></span>
+                            <strong class="mr-auto ml-2">Bootstrap</strong>
+                            <span class="text-small">11 mins ago</span>
+                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="toast-body">
+                        Hello, world! This is a toast message.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="toast bg-tertiary text-white fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header bg-tertiary text-white">
+                            <span class="fab fa-bootstrap"></span>
+                            <strong class="mr-auto ml-2">Bootstrap</strong>
+                            <span class="text-small">11 mins ago</span>
+                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                <span class="text-white" aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="toast-body">
+                        Hello, world! This is a toast message.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Section -->
+
+    {% include 'includes/free-vs-pro.html' %}
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

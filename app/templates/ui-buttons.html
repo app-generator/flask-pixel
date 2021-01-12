@@ -1,0 +1,154 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Buttons {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Hero -->
+    <div class="section-header pb-6 bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 text-center">
+                    <h1 class="display-3 mb-4">Buttons</h1>
+                    <p class="lead mb-5">Use Pixel's custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.</p>
+                    <div class="alert alert-secondary align-items-center" role="alert">
+                        <span class="alert-inner--icon"><span class="fas fa-info-circle"></span></span>
+                        <a class="font-weight-bold" href="https://themesberg.com/docs/pixel-bootstrap/components/buttons/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Hero -->
+
+    <!--End of Title section-->
+    <div class="section section-md components-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <h4 class="h5">Main Buttons</h4>
+                    </div>
+                    <!--Buttons-->
+                    <button class="btn btn-primary" type="button">Button</button>
+                    <button class="btn btn-primary" type="button">
+                        <span class="mr-1"><span class="fas fa-book-open"></span></span>
+                        Icon Left
+                    </button>
+                    <button class="btn btn-primary" type="button">
+                        Icon Right
+                        <span class="ml-1"><span class="fas fa-book-open"></span></span>
+                    </button>
+                    <!--End of Buttons-->
+                    <!--End of Buttons-->
+                    <div class="mb-3 mt-5">
+                        <h4 class="h5">Outline Buttons</h4>
+                    </div>
+                    <!--Buttons-->
+                    <button class="btn btn-outline-primary" type="button">Outline-primary</button>
+                    <button class="btn btn-outline-primary" type="button">
+                        <span class="mr-1"><span class="far fa-save"></span></span>
+                        Icon Left
+                    </button>
+                    <button class="btn btn-outline-primary" type="button">
+                        Icon Right
+                        <span class="ml-1"><span class="far fa-save"></span></span>
+                    </button>
+                    <!--End of Buttons-->
+                    <div class="mb-3 mt-5">
+                        <h4 class="h5">Sizes</h4>
+                    </div>
+                    <!--Buttons-->
+                    <button class="btn btn-sm btn-primary" type="button">Small</button>
+                    <button class="btn btn-primary" type="button">Regular</button>
+                    <button class="btn btn-lg btn-primary" type="button">Large Button</button>
+                    <!--End of Buttons-->
+                    <!-- Button colors -->
+                    <div class="mb-3 mt-5">
+                        <h4 class="h5">Choose your color</h4>
+                    </div>
+                    <div class="mb-3 mt-5">
+                        <h4 class="h5 font-weight-bold h6">Main</h4>
+                    </div>
+                    <!--Buttons-->
+                    <button class="btn btn-primary" type="button">Primary</button>
+                    <button class="btn btn-secondary" type="button">Secondary</button>
+                    <button class="btn btn-tertiary" type="button">Tertiary</button>
+                    <button class="btn btn-info" type="button">Info</button>
+                    <button class="btn btn-success" type="button">Success</button>
+                    <button class="btn btn-danger" type="button">Danger</button>
+                    <button class="btn btn-dark" type="button">Dark</button>
+                    <button class="btn btn-gray" type="button">Gray</button>
+                    <button class="btn btn-light" type="button">Light</button>
+                    <button class="btn btn-white" type="button">White</button>
+                    <!--End Of Buttons-->
+                    <div class="mb-3 mt-5">
+                        <h4 class="h5 font-weight-bold h6">Outline</h4>
+                    </div>
+                    <!--Buttons-->
+                    <button class="btn btn-outline-primary" type="button">Primary</button>
+                    <button class="btn btn-outline-secondary" type="button">Secondary</button>
+                    <button class="btn btn-outline-tertiary" type="button">Tertiary</button>
+                    <button class="btn btn-outline-info" type="button">Info</button>
+                    <button class="btn btn-outline-success" type="button">Success</button>
+                    <button class="btn btn-outline-danger" type="button">Danger</button>
+                    <button class="btn btn-outline-dark" type="button">Dark</button>
+                    <button class="btn btn-outline-gray" type="button">Gray</button>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <!-- Button Social -->
+                            <div class="mb-4 mt-5">
+                                <h4 class="h5">Social Buttons</h4>
+                            </div>
+                            <button class="btn btn-facebook" type="button">
+                                <span class="mr-1"><span class="fab fa-facebook-f"></span></span>
+                                Login with Facebook
+                            </button>
+                            <br>
+                            <button class="btn btn-github" type="button">
+                                <span class="mr-1"><span class="fab fa-github"></span></span>
+                                Login with Github
+                            </button>
+                            <br>
+                            <button class="btn btn-pinterest" type="button">
+                                <span class="mr-1"><span class="fab fa-pinterest-p"></span></span>
+                                Share on Pinterest
+                            </button>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <!-- Button Social -->
+                            <div class="mb-4 mt-5">
+                                <h4 class="h5">Round Social Buttons</h4>
+                            </div>
+                            <button class="btn btn-pill btn-facebook" type="button">
+                                <span class="mr-1"><span class="fab fa-facebook-f"></span></span>
+                                Login with Facebook
+                            </button>
+                            <br>
+                            <button class="btn btn-pill btn-github" type="button">
+                                <span class="mr-1"><span class="fab fa-github"></span></span>
+                                Login with Github
+                            </button>
+                            <br>
+                            <button class="btn btn-pill btn-pinterest" type="button">
+                                <span class="mr-1"><span class="fab fa-pinterest-p"></span></span>
+                                Share on Pinterest
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'includes/free-vs-pro.html' %}   
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
