@@ -4,7 +4,7 @@ Open-Source **Flask** starter coded with basic modules, database, ORM and deploy
 
 <br />
 
-> Flask Dashboard Features
+> Features
 
 - UI Kit: **Pixel Lite** (Free Version) by **Themesberg**
 - SQLite database, Flask-SQLAlchemy ORM
