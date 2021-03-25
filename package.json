@@ -1,7 +1,7 @@
 {
     "name": "flask-pixel-bootstrap-uikit",
     "mastertemplate": "boilerplate-code-flask",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Template project - Flask Boilerplate Code",
     "scripts": {},
     "repository": {
