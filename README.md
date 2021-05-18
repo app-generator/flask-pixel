@@ -1,6 +1,6 @@
-# [Flask](https://appseed.us/boilerplate-code/flask-boilerplate) Pixel Lite
+# [Flask Pixel Lite](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit)
 
-Open-Source **Flask** starter coded with basic modules, database, ORM and deployment scripts on top of **Pixel Lite** UI Kit, a fully responsive and modern Bootstrap 4 UI Kit that will help you build creative and professional websites.
+Open-Source **Flask** starter coded with basic modules, database, ORM and deployment scripts on top of **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** UI Kit, a fully responsive and modern Bootstrap 4 UI Kit that will help you build creative and professional websites. The Flask codebase comes with basic modules, database, ORM and deployment scripts. 
 
 <br />
 
@@ -10,14 +10,15 @@ Open-Source **Flask** starter coded with basic modules, database, ORM and deploy
 - SQLite database, Flask-SQLAlchemy ORM
 - Session-Based auth flow (login, register)
 - Deployment scripts: Docker, Gunicorn / Nginx, Heroku
-- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+- [Support](https://appseed.us/support) (Email and LIVE on Discord) for registered **[AppSeed](https://appseed.us/) users**.
 
 <br />
 
 > Links
 
 - [Flask Pixel Lite](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit) - product page
-- [Flask Pixel Lite - Demo](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Deployment
+- [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Deployment
+- [Flask Pixel Lite](https://docs.appseed.us/products/flask-apps/pixel-lite) - product documentation
 
 <br />
 
@@ -235,4 +236,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Flask](https://appseed.us/boilerplate-code/flask-boilerplate) Pixel Lite - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+[Flask Pixel Lite](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit) - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
