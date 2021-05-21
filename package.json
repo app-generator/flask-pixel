@@ -1,15 +1,15 @@
 {
-    "name": "flask-pixel-bootstrap-uikit",
+    "name": "flask-pixel-lite",
     "mastertemplate": "boilerplate-code-flask",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Template project - Flask Boilerplate Code",
     "scripts": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/app-generator/flask-pixel-bootstrap-uikit"
+        "url": "https://github.com/app-generator/flask-pixel-lite"
     },
     "bugs": {
-        "url": "https://github.com/app-generator/flask-pixel-bootstrap-uikit/issues",
+        "url": "https://github.com/app-generator/flask-pixel-lite/issues",
         "email": "support@appseed.us"
     },
     "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",

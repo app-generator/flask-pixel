@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.3] 2021-05-21
+### Improvements
+
+- Bump UI: [Jinja Pixel Lite](https://github.com/app-generator/jinja-pixel-lite) v1.0.2 / Pixel Lite v4.0.0
+- Bump Codebase: [Flask Boilerplate](https://github.com/app-generator/boilerplate-code-flask) v1.0.5
+
 ## [1.0.2] 2020-03-25
 ### Improvements
 

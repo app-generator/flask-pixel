@@ -1,0 +1,55 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Badges {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <main>
+        
+        {% include 'includes/preloader.html' %}
+
+        <!-- Hero -->
+        <div class="section-header pb-6 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="display-3 mb-4">Badges</h1>
+                        <p class="lead mb-5">Examples for badges, our small count and labeling component.</p>
+                        <div class="alert bg-secondary align-items-center" role="alert">
+                            <span class="fas fa-info-circle"></span>
+                            <a class="fw-bold text-white text-underline ms-1" href="https://themesberg.com/docs/pixel-bootstrap/components/badges/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Hero -->
+    
+        <!-- Section -->
+        <div class="section section-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <a href="#" class="badge bg-primary">Primary</a>
+                        <a href="#" class="badge bg-secondary">Secondary</a>
+                        <a href="#" class="badge bg-tertiary">Tertiary</a>
+                        <a href="#" class="badge bg-gray">Gray</a>
+                        <a href="#" class="badge bg-success">Success</a>
+                        <a href="#" class="badge bg-danger">Danger</a>
+                        <a href="#" class="badge bg-warning text-dark">Warning</a>
+                        <a href="#" class="badge bg-info">Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Section -->
+
+    </main>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
