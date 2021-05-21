@@ -1,6 +1,6 @@
 # [Flask Pixel Lite](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit)
 
-Open-Source **Flask** starter coded with basic modules, database, ORM and deployment scripts on top of **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** UI Kit, a fully responsive and modern Bootstrap 4 UI Kit that will help you build creative and professional websites. The Flask codebase comes with basic modules, database, ORM and deployment scripts. 
+Open-Source **Flask** starter coded with basic modules, database, ORM and deployment scripts on top of **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** UI Kit, a fully responsive and modern **Bootstrap 5 UI Kit** that will help you build creative and professional websites. The Flask codebase comes with basic modules, database, ORM and deployment scripts. 
 
 <br />
 
