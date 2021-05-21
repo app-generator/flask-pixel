@@ -33,7 +33,7 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 <br />
 <br />
 
-![Flask Pixel Lite - Open-Source web app coded in Flask.](https://raw.githubusercontent.com/app-generator/flask-pixel-bootstrap-uikit/master/media/flask-pixel-bootstrap-uikit-screen.png)
+![Flask Pixel Lite - Open-Source web app coded in Flask.](https://raw.githubusercontent.com/app-generator/flask-pixel-lite/master/media/flask-pixel-bootstrap-uikit-screen.png)
 
 <br />
 
@@ -41,8 +41,8 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/flask-pixel-bootstrap-uikit.git
-$ cd flask-pixel-bootstrap-uikit
+$ git clone https://github.com/app-generator/flask-pixel-lite.git
+$ cd flask-pixel-lite
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -136,8 +136,8 @@ The application can be easily executed in a docker container. The steps:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/flask-pixel-bootstrap-uikit.git
-$ cd flask-pixel-bootstrap-uikit
+$ git clone https://github.com/app-generator/flask-pixel-lite.git
+$ cd flask-pixel-lite
 ```
 
 > Start the app in Docker
@@ -162,8 +162,8 @@ Steps to deploy on **Heroku**
 
 ```bash
 $ # Clone the source code:
-$ git clone https://github.com/app-generator/flask-pixel-bootstrap-uikit.git
-$ cd flask-pixel-bootstrap-uikit
+$ git clone https://github.com/app-generator/flask-pixel-lite.git
+$ cd flask-pixel-lite
 $
 $ # Check Heroku CLI is installed
 $ heroku -v
