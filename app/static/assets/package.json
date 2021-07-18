@@ -1,0 +1,62 @@
+{
+    "name": "@themesberg/pixel-lite-bootstrap-ui-kit",
+    "version": "4.0.0",
+    "description": "Open-source Bootstrap 5 UI Kit",
+    "main": "gulpfile.js",
+    "author": "Themesberg",
+    "keywords": [
+        "bootstrap",
+        "bootstrap 5",
+        "bootstrap 5 ui kit",
+        "bootstrap ui kit",
+        "ui kit",
+        "components",
+        "elements",
+        "responsive",
+        "front-end",
+        "css",
+        "sass",
+        "gulp",
+        "web"
+    ],
+    "homepage": "https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/themesberg/pixel-bootstrap-ui-kit"
+    },
+    "bugs": {
+        "email": "support@themesberg.com"
+    },
+    "license": "MIT License",
+    "devDependencies": {
+        "browser-sync": "^2.26.14",
+        "del": "4.1.1",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "6.1.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-cssbeautify": "1.0.1",
+        "gulp-file-include": "2.1.0",
+        "gulp-header": "2.0.7",
+        "gulp-htmlmin": "5.0.1",
+        "gulp-npm-dist": "^1.0.3",
+        "gulp-plumber": "1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-sourcemaps": "2.6.5",
+        "gulp-uglify": "3.0.2",
+        "gulp-wait": "0.0.2",
+        "merge-stream": "2.0.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.11.2",
+        "@popperjs/core": "^2.6.0",
+        "bootstrap": "5.0.0-beta2",
+        "vanillajs-datepicker": "^1.0.3",
+        "headroom.js": "0.10.3",
+        "jarallax": "1.12.0",
+        "onscreen": "1.3.4",
+        "smooth-scroll": "^16.1.0",
+        "vivus": "^0.4.5",
+        "waypoints": "4.0.1"
+    }
+}
