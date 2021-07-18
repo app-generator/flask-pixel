@@ -131,7 +131,7 @@ To recompile SCSS files, follow this setup:
 **Step #2** - Change the working directory to `assets` folder
 
 ```bash
-$ cd app/base/static/assets
+$ cd app/static/assets
 ```
 
 <br />
