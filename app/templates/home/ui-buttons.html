@@ -1,0 +1,216 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Buttons {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <main>
+        
+        {% include 'includes/preloader.html' %}
+
+        <!-- Hero -->
+        <div class="section-header pb-6 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="display-3 mb-4">Buttons</h1>
+                        <p class="lead mb-5">Use Pixel's custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.</p>
+                        <div class="alert bg-secondary" role="alert">
+                            <span class="fas fa-info-circle"></span>
+                            <a class="fw-bold text-white text-underline mx-1" href="https://themesberg.com/docs/pixel-bootstrap/components/buttons/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Hero -->
+        
+        <!--End of Title section-->
+        <div class="section section-md components-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <h4 class="h5">Main Buttons</h4>
+                        </div>
+                        <button class="btn btn-primary" type="button">Button</button>
+                        <button class="btn btn-primary" type="button">
+                            <span class="me-1"><span class="fas fa-book-open"></span></span>
+                            Icon Left
+                        </button>
+                        <button class="btn btn-primary" type="button">
+                            Icon Right
+                            <span class="ms-1"><span class="fas fa-book-open"></span></span>
+                        </button>
+                        <button class="btn btn-icon-only btn-primary" type="button" aria-label="love button"
+                            title="love button">
+                            <span aria-hidden="true" class="far fa-heart"></span>
+                        </button>
+                        <!--End of Buttons-->
+                        <div class="mb-3 mt-5">
+                            <h4 class="h5">Outline Buttons</h4>
+                        </div>
+                        <!--Buttons-->
+                        <button class="btn btn-outline-primary" type="button">Outline-primary</button>
+                        <button class="btn btn-outline-primary" type="button">
+                            <span class="me-1"><span class="far fa-save"></span></span>
+                            Icon Left
+                        </button>
+                        <button class="btn btn-outline-primary" type="button">
+                            Icon Right
+                            <span class="ms-1"><span class="far fa-save"></span></span>
+                        </button>
+                        <button class="btn btn-outline-primary btn-icon-only" type="button" aria-label="up button"
+                            title="up button">
+                            <span aria-hidden="true" class="far fa-thumbs-up"></span>
+                        </button>
+                        <!--End of Buttons-->
+                        <div class="mb-3 mt-5">
+                            <h4 class="h5">Sizes</h4>
+                        </div>
+                        <!--Buttons-->
+                        <button class="btn btn-sm btn-primary" type="button">Small</button>
+                        <button class="btn btn-primary" type="button">Regular</button>
+                        <button class="btn btn-lg btn-primary" type="button">Large Button</button>
+                        <!--End of Buttons-->
+                        <!-- Button colors -->
+                        <div class="mb-3 mt-5">
+                            <h4 class="h5">Choose your color</h4>
+                        </div>
+                        <div class="mb-3 mt-5">
+                            <h4 class="h5 font-weight-bold h6">Main</h4>
+                        </div>
+                        <!--Buttons-->
+                        <button class="btn btn-primary" type="button">Primary</button>
+                        <button class="btn btn-secondary" type="button">Secondary</button>
+                        <button class="btn btn-tertiary" type="button">Tertiary</button>
+                        <button class="btn btn-info" type="button">Info</button>
+                        <button class="btn btn-success text-white" type="button">Success</button>
+                        <button class="btn btn-warning" type="button">Warning</button>
+                        <button class="btn btn-danger" type="button">Danger</button>
+                        <button class="btn btn-dark" type="button">Dark</button>
+                        <button class="btn btn-gray" type="button">Gray</button>
+                        <button class="btn btn-light" type="button">Light</button>
+                        <button class="btn btn-white" type="button">White</button>
+                        <!--End Of Buttons-->
+                        <div class="mb-3 mt-5">
+                            <h4 class="h5 font-weight-bold h6">Outline</h4>
+                        </div>
+                        <!--Buttons-->
+                        <button class="btn btn-outline-primary" type="button">Primary</button>
+                        <button class="btn btn-outline-secondary" type="button">Secondary</button>
+                        <button class="btn btn-outline-tertiary" type="button">Tertiary</button>
+                        <button class="btn btn-outline-info" type="button">Info</button>
+                        <button class="btn btn-outline-success" type="button">Success</button>
+                        <button class="btn btn-outline-danger" type="button">Danger</button>
+                        <button class="btn btn-outline-dark" type="button">Dark</button>
+                        <button class="btn btn-outline-gray" type="button">Gray</button>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 col-lg-4">
+                                <!-- Button Social -->
+                                <div class="mb-4 mt-5">
+                                    <h4 class="h5">Social Buttons</h4>
+                                </div>
+                                <button class="btn btn-facebook mb-3" type="button">
+                                    <span class="me-1"><span class="fab fa-facebook-f"></span></span>
+                                    Login with Facebook
+                                </button>
+                                <br>
+                                <button class="btn btn-twitter text-white mb-3" type="button">
+                                    <span class="me-1"><span class="fab fa-twitter"></span></span>
+                                    Share on Twitter
+                                </button>
+                                <br>
+                                <button class="btn btn-instagram mb-3" type="button">
+                                    <span class="me-1"><span class="fab fa-instagram"></span></span>
+                                    Share on Instagram
+                                </button>
+                                <br>
+                                <button class="btn btn-dribbble mb-3" type="button">
+                                    <span class="me-1"><span class="fab fa-dribbble"></span></span>
+                                    Login with dribbble
+                                </button>
+                                <br>
+                                <button class="btn btn-slack text-white mb-3" type="button">
+                                    <span class="me-1"><span class="fab fa-slack"></span></span>
+                                    Chat on Slack
+                                </button>
+                                <br>
+                                <button class="btn btn-dropbox mb-3" type="button">
+                                    <span class="me-1"><span class="fab fa-dropbox"></span></span>
+                                    Smart Sync
+                                </button>
+                                <br>
+                                <button class="btn btn-github" type="button">
+                                    <span class="me-1"><span class="fab fa-github-alt"></span></span>
+                                    Login with GitHub
+                                </button>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <!-- Button Social -->
+                                <div class="mb-4 mt-5">
+                                    <h4 class="h5">Round Social Buttons</h4>
+                                </div>
+                                <button class="btn btn-icon-only btn-facebook" type="button" aria-label="facebook button"
+                                    title="facebook button">
+                                    <span aria-hidden="true" class="fab fa-facebook"></span>
+                                </button>
+                                <button class="btn btn-icon-only btn-twitter text-white" type="button"
+                                    aria-label="pinterest button" title="pinterest button">
+                                    <span aria-hidden="true" class="fab fa-twitter"></span>
+                                </button>
+                                <button class="btn btn-icon-only btn-instagram" type="button" aria-label="youtube button"
+                                    title="youtube button">
+                                    <span aria-hidden="true" class="fab fa-instagram"></span>
+                                </button>
+                                <button class="btn btn-icon-only btn-dribbble" type="button" aria-label="github button"
+                                    title="github button">
+                                    <span aria-hidden="true" class="fab fa-dribbble"></span>
+                                </button>
+                                <button class="btn btn-icon-only btn-slack text-white" type="button" aria-label="twitch button"
+                                    title="twitch button">
+                                    <span aria-hidden="true" class="fab fa-slack"></span>
+                                </button>
+                                <button class="btn btn-icon-only btn-dropbox" type="button" aria-label="paypal button"
+                                    title="paypal button">
+                                    <span aria-hidden="true" class="fab fa-dropbox"></span>
+                                </button>
+                                <button class="btn btn-icon-only btn-github" type="button" aria-label="behance button"
+                                    title="behance button">
+                                    <span aria-hidden="true" class="fab fa-github"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+    <script>
+        $toggleTransitions = $('#toggleTransitions');
+        $buttonOverlay = $('.btn-loading-overlay');
+
+        $toggleTransitions.on('change', function() {
+            if ($(this).is(':checked')) {
+                $buttonOverlay.addClass('btn-loading');
+                $buttonOverlay.attr('disabled', true);
+            } else {
+                $buttonOverlay.removeClass('btn-loading');
+                $buttonOverlay.attr('disabled', false);
+            }
+        });
+    </script>
+
+{% endblock javascripts %}

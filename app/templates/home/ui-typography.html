@@ -1,0 +1,260 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Typography {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <main>
+        
+        {% include 'includes/preloader.html' %}
+
+        <!-- Hero -->
+        <div class="section-header pb-6 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="display-3 mb-4">Typography</h1>
+                        <p class="lead mb-5">Pixel makes use of the <strong>Nunito</strong> Google Web Font for beatiful and readable typography.</p>
+                        <div class="alert bg-secondary" role="alert">
+                            <span class="fas fa-info-circle"></span>
+                            <a class="fw-bold text-white text-underline mx-1" href="https://themesberg.com/docs/pixel-bootstrap/foundation/typography/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Hero -->
+        
+        <!-- Section -->
+        <div class="section section-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>h1. Themesberg heading</h1>
+                        <h2>h2. Themesberg heading</h2>
+                        <h3>h3. Themesberg heading</h3>
+                        <h4>h4. Themesberg heading</h4>
+                        <h5>h5. Themesberg heading</h5>
+                        <h6>h6. Themesberg heading</h6>
+                    </div>
+                </div>
+                <!-- Title  -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mt-6 mb-5">
+                            <span class="h6 fw-bold">Customizing headings</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Title -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>
+                            Fancy display heading
+                            <small class="text-muted">With faded secondary text</small>
+                        </h1>
+                        <h2>
+                            Fancy display heading
+                            <small class="text-muted">With faded secondary text</small>
+                        </h2>
+                        <h3>
+                            Fancy display heading
+                            <small class="text-muted">With faded secondary text</small>
+                        </h3>
+                        <h4>
+                            Fancy display heading
+                            <small class="text-muted">With faded secondary text</small>
+                        </h4>
+                        <h5>
+                            Fancy display heading
+                            <small class="text-muted">With faded secondary text</small>
+                        </h5>
+                        <h6>
+                            Fancy display heading
+                            <small class="text-muted">With faded secondary text</small>
+                        </h6>
+                    </div>
+                </div>
+                <!-- Title  -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mt-6 mb-5">
+                            <span class="h6 fw-bold">Display headings</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Title -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="display-1">Display 1</h1>
+                        <h1 class="display-2">Display 2</h1>
+                        <h1 class="display-3">Display 3</h1>
+                        <h1 class="display-4">Display 4</h1>
+                    </div>
+                </div>
+                <!-- Title  -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mt-6 mb-5">
+                            <span class="h6 fw-bold">Paragraphs</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Title -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <span class="h6 fw-bold">Simple paragraph</span>
+                        </div>
+                        <p>Start your development with a Pixel Design System for Themesberg 4.Themesberg makes beautiful
+                            products to help people with creative ideas succeed.Our company empowers millions of people.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mt-5 mb-3 mt-sm-0">
+                            <span class="h6 fw-bold">Lead paragraph</span>
+                        </div>
+                        <p class="lead">Start your development with a Pixel Design System for Themesberg 4.Themesberg makes
+                            beautiful products to help people with creative ideas succeed.Our company empowers millions of
+                            people.</p>
+                    </div>
+                </div>
+                <div class="row mt-4 mb-3 align-items-center">
+                    <div class="col-sm-2">
+                        <small class="text-uppercase text-muted">Dark text</small>
+                    </div>
+                    <div class="col-sm-10">
+                        <p class="text-dark mb-0">Design is not just what it looks like and feels like. Design is how it works.
+                        </p>
+                    </div>
+                </div>
+                <div class="row py-3 align-items-center">
+                    <div class="col-sm-2">
+                        <small class="text-uppercase text-muted">Primary text</small>
+                    </div>
+                    <div class="col-sm-10">
+                        <p class="text-primary mb-0">Design is not just what it looks like and feels like. Design is how it
+                            works.</p>
+                    </div>
+                </div>
+                <div class="row py-3 align-items-center">
+                    <div class="col-sm-2">
+                        <small class="text-uppercase text-muted">Secondary text</small>
+                    </div>
+                    <div class="col-sm-10">
+                        <p class="text-secondary mb-0">Design is not just what it looks like and feels like. Design is how it
+                            works.</p>
+                    </div>
+                </div>
+                <div class="row py-3 align-items-center">
+                    <div class="col-sm-2">
+                        <small class="text-uppercase text-muted">Tertiary text</small>
+                    </div>
+                    <div class="col-sm-10">
+                        <p class="text-tertiary mb-0">Design is not just what it looks like and feels like. Design is how it
+                            works.</p>
+                    </div>
+                </div>
+                <div class="row py-3 align-items-center">
+                    <div class="col-sm-2">
+                        <small class="text-uppercase text-muted">Info text</small>
+                    </div>
+                    <div class="col-sm-10">
+                        <p class="text-info mb-0">Design is not just what it looks like and feels like. Design is how it works.
+                        </p>
+                    </div>
+                </div>
+                <div class="row py-3 align-items-center">
+                    <div class="col-sm-2">
+                        <small class="text-uppercase text-muted">Danger text</small>
+                    </div>
+                    <div class="col-sm-10">
+                        <p class="text-danger mb-0">Design is not just what it looks like and feels like. Design is how it
+                            works.</p>
+                    </div>
+                </div>
+                <div class="row py-3 align-items-center">
+                    <div class="col-sm-2">
+                        <small class="text-uppercase text-muted">Success text</small>
+                    </div>
+                    <div class="col-sm-10">
+                        <p class="text-success mb-0">Design is not just what it looks like and feels like. Design is how it
+                            works.</p>
+                    </div>
+                </div>
+                <!-- Title  -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mt-6 mb-5">
+                            <span class="h6">Blockquote</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Title -->
+                <div class="row">
+                    <div class="col-md-8">
+                        <blockquote class="blockquote text-center">
+                            Themesberg makes beautiful products to help people with creative ideas succeed. Our company empowers
+                            millions of people.
+                            <footer class="blockquote-footer mt-3 text-primary">Zoltan Szőgyényi</footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <!-- Title  -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mt-6 mb-5">
+                            <span class="h6">Lists</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Title -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <span class="h6">Unordered</span>
+                        </div>
+                        <ul>
+                            <li>Minutes of the last meeting</li>
+                            <li>Do we need yet more meetings?</li>
+                            <li>Any other business
+                                <ul>
+                                    <li>Programming</li>
+                                    <li>Web Design</li>
+                                    <li>Database</li>
+                                </ul>
+                            </li>
+                            <li>Something funny</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mt-5 mb-3 mt-sm-0">
+                            <span class="h6 fw-bold">Ordered</span>
+                        </div>
+                        <ol>
+                            <li>Minutes of the last meeting</li>
+                            <li>Do we need yet more meetings?</li>
+                            <li>Any other business
+                                <ol>
+                                    <li>Programming</li>
+                                    <li>Web Design</li>
+                                    <li>Database</li>
+                                </ol>
+                            </li>
+                            <li>Something funny</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Section -->
+
+    </main>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
