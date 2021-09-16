@@ -77,7 +77,6 @@ The project has a super simple structure, represented as bellow:
 ```bash
 < PROJECT ROOT >
    |
-   |-- app/__init__.py
    |-- app/
    |    |-- static/
    |    |    |-- <css, JS, images>         # CSS files, Javascripts files
@@ -105,7 +104,11 @@ The project has a super simple structure, represented as bellow:
    |    |         |-- index.html            # Index page
    |    |         |-- 404-page.html         # 404 page
    |    |         |-- *.html                # All other pages
-   |
+   |    |
+   |   config.py                            # Provides APP Configuration 
+   |   forms.py                             # Defines Forms (login, register) 
+   |   models.py                            # Defines app models 
+   |   views.py                             # Application Routes 
    |
    |-- Dockerfile                           # Deployment
    |-- docker-compose.yml                   # Deployment
