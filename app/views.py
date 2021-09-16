@@ -14,13 +14,13 @@ from jinja2              import TemplateNotFound
 
 # App modules
 from app        import app, lm, db, bc
-from app.models import User
+from app.models import Users
 from app.forms  import LoginForm, RegisterForm
 
 # provide login manager with load_user callback
 @lm.user_loader
 def load_user(user_id):
-    return User.query.get(int(user_id))
+    return Users.query.get(int(user_id))
 
 # Logout user
 @app.route('/logout.html')
@@ -51,10 +51,10 @@ def register():
         email    = request.form.get('email'   , '', type=str) 
 
         # filter User out of database through username
-        user = User.query.filter_by(user=username).first()
+        user = Users.query.filter_by(user=username).first()
 
         # filter User out of database through username
-        user_by_email = User.query.filter_by(email=email).first()
+        user_by_email = Users.query.filter_by(email=email).first()
 
         if user or user_by_email:
             msg = 'Error: User exists!'
@@ -63,7 +63,7 @@ def register():
 
             pw_hash = bc.generate_password_hash(password)
 
-            user = User(username, email, pw_hash)
+            user = Users(username, email, pw_hash)
 
             user.save()
 
@@ -93,7 +93,7 @@ def login():
         password = request.form.get('password', '', type=str) 
 
         # filter User out of database through username
-        user = User.query.filter_by(user=username).first()
+        user = Users.query.filter_by(user=username).first()
 
         if user:
             

@@ -6,7 +6,9 @@ Copyright (c) 2019 - present AppSeed.us
 from app         import db
 from flask_login import UserMixin
 
-class User(UserMixin, db.Model):
+class Users(db.Model, UserMixin):
+
+    __tablename__ = 'Users'
 
     id       = db.Column(db.Integer,     primary_key=True)
     user     = db.Column(db.String(64),  unique = True)
