@@ -1,7 +1,7 @@
 {
     "name": "flask-pixel-lite",
     "mastertemplate": "boilerplate-code-flask",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Template project - Flask Boilerplate Code",
     "scripts": {},
     "repository": {

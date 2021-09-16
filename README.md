@@ -6,6 +6,8 @@ Open-Source **Flask** starter coded with basic modules, database, ORM and deploy
 
 > Features
 
+- Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
+- [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **Pixel Lite** (Free Version) by **Themesberg**
 - SQLite database, Flask-SQLAlchemy ORM
 - Session-Based auth flow (login, register)
@@ -99,13 +101,19 @@ The project has a super simple structure, represented as bellow:
    |    |    |    |-- login.html           # Use layout `base-fullscreen.html`
    |    |    |    |-- register.html        # Use layout `base-fullscreen.html`  
    |    |    |
-   |    |  index.html                      # The default page
-   |    |  page-404.html                   # Error 404 page (page not found)
-   |    |  page-500.html                   # Error 500 page (server error)
-   |    |    *.html                        # All other pages provided by the UI Kit
+   |    |    |-- home/                      # UI Kit Pages
+   |    |         |-- index.html            # Index page
+   |    |         |-- 404-page.html         # 404 page
+   |    |         |-- *.html                # All other pages
+   |
+   |
+   |-- Dockerfile                           # Deployment
+   |-- docker-compose.yml                   # Deployment
+   |-- gunicorn-cfg.py                      # Deployment   
+   |-- nginx                                # Deployment
+   |    |-- appseed-app.conf                # Deployment 
    |
    |-- requirements.txt
-   |
    |-- run.py
    |
    |-- ************************************************************************

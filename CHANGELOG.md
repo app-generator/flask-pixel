@@ -1,5 +1,16 @@
 # Change Log
 
+## [1.0.5] 2021-09-16
+### Improvements & Fixes
+
+- Bump Flask Codebase to [v1.0.6](https://github.com/app-generator/boilerplate-code-flask/releases)
+  - Dependencies update (all packages)
+    - Use Flask==2.0.1 (latest stable version)
+  - Better Code formatting
+  - Improved Files organization
+  - Optimize imports
+  - Docker Scripts Update 
+
 ## [1.0.4] 2021-07-18
 ### Tooling
 
