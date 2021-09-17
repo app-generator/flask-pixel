@@ -191,7 +191,7 @@ $ cd flask-pixel-lite
 $ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
 ```
 
-Visit `http://localhost:5005` in your browser. The app should be up & running.
+Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 
