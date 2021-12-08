@@ -67,7 +67,7 @@ def register():
 
             user.save()
 
-            msg     = 'User created, please <a href="' + url_for('login') + '">login</a>'     
+            msg     = 'User created successfully.'     
             success = True
 
     else:

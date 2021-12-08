@@ -20,9 +20,25 @@ Open-Source **Flask** starter coded with basic modules, database, ORM and deploy
 
 - [Flask Pixel Lite](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit) - product page
 - [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Deployment
-- [Flask Pixel Lite](https://docs.appseed.us/products/flask-apps/pixel-lite) - product documentation
 
 <br />
+
+## Quick Start in [Docker](https://www.docker.com/)
+
+> Get the code
+
+```bash
+$ git clone https://github.com/app-generator/flask-pixel.git
+$ cd flask-pixel
+```
+
+> Start the app in Docker
+
+```bash
+$ docker-compose up --build 
+```
+
+Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 
@@ -34,8 +50,8 @@ Open-Source **Flask** starter coded with basic modules, database, ORM and deploy
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/flask-pixel-lite.git
-$ cd flask-pixel-lite
+$ git clone https://github.com/app-generator/flask-pixel.git
+$ cd flask-pixel
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -171,30 +187,6 @@ The generated file is saved in `static/assets/css` directory.
 
 The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Heroku](https://www.heroku.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
 
-<br />
-
-### [Docker](https://www.docker.com/) execution
----
-
-The application can be easily executed in a docker container. The steps:
-
-> Get the code
-
-```bash
-$ git clone https://github.com/app-generator/flask-pixel-lite.git
-$ cd flask-pixel-lite
-```
-
-> Start the app in Docker
-
-```bash
-$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
-```
-
-Visit `http://localhost:85` in your browser. The app should be up & running.
-
-<br />
-
 ### [Heroku](https://www.heroku.com/)
 ---
 
@@ -207,8 +199,8 @@ Steps to deploy on **Heroku**
 
 ```bash
 $ # Clone the source code:
-$ git clone https://github.com/app-generator/flask-pixel-lite.git
-$ cd flask-pixel-lite
+$ git clone https://github.com/app-generator/flask-pixel.git
+$ cd flask-pixel
 $
 $ # Check Heroku CLI is installed
 $ heroku -v
