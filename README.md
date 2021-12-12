@@ -1,25 +1,26 @@
 # [Flask Pixel Lite](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit)
 
-Open-Source **Flask** starter coded with basic modules, database, ORM and deployment scripts on top of **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** UI Kit, a fully responsive and modern **Bootstrap 5 UI Kit** that will help you build creative and professional websites. The Flask codebase comes with basic modules, database, ORM and deployment scripts. 
+Open-Source **[Flask](https://appseed.us/apps/flask-apps)** starter coded with basic modules, database, ORM and deployment scripts on top of **[Pixel Lite](https://docs.appseed.us/content/bootstrap-template/pixel-lite-template)** UI Kit, a fully responsive and modern **Bootstrap 5 UI Kit** that will help you build creative and professional websites. The Flask codebase comes with basic modules, database, ORM and deployment scripts. 
 
 <br />
 
 > Features
 
-- Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
+- `Up-to-date dependencies`: **Flask 2.0.1**
 - [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **Pixel Lite** (Free Version) by **Themesberg**
-- SQLite database, Flask-SQLAlchemy ORM
+- `DB Tools`: SQLite, Flask-SQLAlchemy ORM
 - Session-Based auth flow (login, register)
-- Deployment scripts: Docker, Gunicorn / Nginx, Heroku
+- `Deployment`: Docker, Gunicorn / Nginx, Heroku
 - [Support](https://appseed.us/support) (Email and LIVE on Discord) for registered **[AppSeed](https://appseed.us/) users**.
 
 <br />
 
 > Links
 
-- [Flask Pixel Lite](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit) - product page
-- [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Deployment
+- 👉 [Flask Pixel Lite](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit) - Product page
+- 👉 [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Demo
+- 👉 More [Flask Apps](https://appseed.us/apps/flask-apps) - provided by AppSeed 
 
 <br />
 
