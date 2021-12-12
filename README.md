@@ -12,7 +12,7 @@ Open-Source **[Flask](https://appseed.us/apps/flask-apps)** starter coded with b
 - `DB Tools`: SQLite, Flask-SQLAlchemy ORM
 - Session-Based auth flow (login, register)
 - `Deployment`: Docker, Gunicorn / Nginx, Heroku
-- [Support](https://appseed.us/support) (Email and LIVE on Discord) for registered **[AppSeed](https://appseed.us/) users**.
+- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
