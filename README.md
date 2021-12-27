@@ -24,7 +24,7 @@ Open-Source **[Flask](https://appseed.us/apps/flask-apps)** starter coded with b
 
 <br />
 
-## Quick Start in [Docker](https://www.docker.com/)
+## ✨ Quick Start in `Docker`
 
 > Get the code
 
@@ -47,7 +47,7 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 
-## Build from sources
+## ✨ Build from sources
 
 ```bash
 $ # Clone the sources
@@ -87,7 +87,7 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 
 <br />
 
-## Code-base structure
+## ✨ Code-base structure
 
 The project has a super simple structure, represented as bellow:
 
@@ -141,7 +141,7 @@ The project has a super simple structure, represented as bellow:
 
 <br />
 
-## Recompile CSS
+## ✨ Recompile CSS
 
 To recompile SCSS files, follow this setup:
 
@@ -184,7 +184,7 @@ The generated file is saved in `static/assets/css` directory.
 
 <br />
 
-## Deployment
+## ✨ Deployment
 
 The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Heroku](https://www.heroku.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
 
@@ -265,7 +265,7 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 <br />
 
-## Credits & Links
+## ✨ Credits & Links
 
 - [Flask Framework](https://www.palletsprojects.com/p/flask/) - The official website
 - [Boilerplate Code](https://appseed.us/boilerplate-code) - Index provided by **AppSeed**
