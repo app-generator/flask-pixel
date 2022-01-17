@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.0.7] 2022-01-17
+### Improvements
+
+- Bump Flask Codebase to [v2.0.0](https://github.com/app-generator/boilerplate-code-flask/releases)
+- Dependencies update (all packages) 
+  - Flask==2.0.2 (latest stable version)
+  - flask_wtf==1.0.0
+  - jinja2==3.0.3
+  - flask-restx==0.5.1
+
 ## [1.0.6] 2021-09-16
 ### Improvements
 
