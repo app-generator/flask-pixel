@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.8] 2022-05-30
+### Improvements
+
+- Built with [Pixel Lite Generator](https://appseed.us/generator/pixel-bootstrap/)
+  - Timestamp: `2022-05-31 08:12`
+
 ## [1.0.7] 2022-01-17
 ### Improvements
 

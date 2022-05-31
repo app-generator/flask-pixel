@@ -1,0 +1,282 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Forms {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <main>
+        
+        {% include 'includes/preloader.html' %}
+
+        <!-- Hero -->
+        <div class="section-header pb-6 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="display-3 mb-4">Forms</h1>
+                        <p class="lead mb-5">Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms.</p>
+                        <div class="alert bg-secondary" role="alert">
+                            <span class="fas fa-info-circle"></span>
+                            <a class="fw-bold text-white text-underline mx-1" href="https://themesberg.com/docs/pixel-bootstrap/components/forms/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Hero -->
+        
+        <div class="section section-md pb-0">
+            <div class="container">
+                <!-- Title -->
+                <div class="row">
+                    <div class="col">
+                        <h2 class="h5">Default Forms</h2>
+                    </div>
+                </div>
+                <!-- End of Title -->
+            </div>
+        </div>
+
+        <!-- Section -->
+        <div class="section section-md pt-4">
+            <div class="container">
+                <div class="row mb-4 mb-lg-5">
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Form -->
+                        <div class="mb-4">
+                            <label for="exampleInputEmail6">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail6">
+                            <small id="emailHelp" class="form-text text-gray">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <!-- End of Form -->
+                        <!-- Form -->
+                        <div class="mb-3">
+                            <label for="exampleInputIconLeft">Icon Left</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><span class="fas fa-search"></span></span>
+                                <input type="text" class="form-control" id="exampleInputIconLeft" placeholder="Search"
+                                    aria-label="Search" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        <!-- End of Form -->
+                        <!-- Form -->
+                        <div class="mb-3">
+                            <label for="exampleInputIconRight">Icon Right</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="exampleInputIconRight" placeholder="Search"
+                                    aria-label="Search" aria-describedby="basic-addon2">
+                                <span class="input-group-text" id="basic-addon2"><span class="fas fa-search"></span></span>
+                            </div>
+                        </div>
+                        <!-- End of Form -->
+                        <!-- Form -->
+                        <div class="mb-3">
+                            <label for="exampleInputIconPassword">Password</label>
+                            <div class="input-group">
+                                <input type="password" class="form-control" id="exampleInputIconPassword" placeholder="Password"
+                                    aria-label="Password" aria-describedby="basic-addon3">
+                                <span class="input-group-text" id="basic-addon3"><span class="fas fa-unlock-alt"></span></span>
+                            </div>
+                        </div>
+                        <!-- End of Form -->
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Form -->
+                        <div class="mb-3">
+                            <label for="disabledTextInput">Name</label>
+                            <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input"
+                                disabled>
+                        </div>
+                        <div class="mb-3">
+                            <label for="disabledSelect">Disabled select menu</label>
+                            <select id="disabledSelect" class="form-control" disabled>
+                                <option>Disabled select</option>
+                            </select>
+                        </div>
+                        <!-- End of Form -->
+                        <!-- Form -->
+                        <div class="mb-3">
+                            <label class="my-1 me-2" for="inlineFormCustomSelectPref">Country</label>
+                            <select class="form-select" id="inlineFormCustomSelectPref" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <!-- End of Form -->
+                        <!-- Form -->
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                            <textarea class="form-control" placeholder="Enter your message..." id="exampleFormControlTextarea1"
+                                rows="4"></textarea>
+                        </div>
+                        <!-- End of Form -->
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Form -->
+                        <div class="mb-3">
+                            <label for="validationServer01">First name</label>
+                            <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <!-- End of Form -->
+                        <!-- Form -->
+                        <div class="mb-4">
+                            <label for="validationServerUsername">Username</label>
+                            <input type="text" class="form-control is-invalid" id="validationServerUsername" required>
+                            <div class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
+                        <!-- End of Form -->
+                        <!-- Form -->
+                        <div class="mb-3">
+                            <label for="formFile" class="form-label">Default file input example</label>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                        <!-- End of Form -->
+                    </div>
+                </div>
+                <div class="row mb-5 mb-lg-5">
+                    <div class="col-lg-3 col-md-6">
+                        <!-- Checkboxes -->
+                        <div class="mb-3">
+                            <span class="h6 fw-bold">Square Checkboxes</span>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+                            <label class="form-check-label" for="defaultCheck1">
+                                First Option
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label" for="defaultCheck2">
+                                Second Option
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                            <label class="form-check-label" for="defaultCheck3">
+                                Third Option
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" disabled>
+                            <label class="form-check-label" for="defaultCheck4">
+                                Disabled checkbox
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-4 mt-md-0">
+                        <!-- Radio -->
+                        <fieldset>
+                            <legend class="h6">Radios</legend>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    Default radio
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                    value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    Second default radio
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                                    value="option3" disabled>
+                                <label class="form-check-label" for="exampleRadios3">
+                                    Disabled radio
+                                </label>
+                            </div>
+                            <!-- End of Radio -->
+                        </fieldset>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-4 mt-md-0">
+                        <div class="mb-3">
+                            <span class="h6 fw-bold">Switches</span>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch input</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                            <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch input</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled>
+                            <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch input</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked
+                                disabled>
+                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch
+                                input</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4 mb-lg-5">
+                    <div class="col-12 col-md-4">
+                        <!-- Form -->
+                        <div class="form-group">
+                            <label class="h6" for="exampleInputDate1">Choose a date</label>
+                            <div class="input-group mb-4">
+                                <span class="input-group-text" id="basic-addonDate1"><span
+                                        class="fas far fa-calendar-alt"></span></span>
+                                <input class="form-control" data-datepicker="" id="exampleInputDate1" placeholder="Select date"
+                                    type="text" aria-label="Date with icon left">
+                            </div>
+                        </div>
+                        <!-- End of Form -->
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <!-- Form -->
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <label class="h6" for="exampleInputDate2">From</label>
+                                <div class="form-group">
+                                    <div class="input-group input-group-border">
+                                        <span class="input-group-text" id="basic-addonDate2"><span
+                                                class="fas far fa-calendar-alt"></span></span>
+                                        <input class="form-control" data-datepicker="" id="exampleInputDate2"
+                                            placeholder="Start date" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="h6" for="exampleInputDate3">To</label>
+                                    <div class="input-group input-group-border">
+                                        <span class="input-group-text" id="basic-addonDate3"><span
+                                                class="fas far fa-calendar-alt"></span></span>
+                                        <input class="form-control" data-datepicker="" id="exampleInputDate3"
+                                            placeholder="End date" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Section -->
+
+    </main>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

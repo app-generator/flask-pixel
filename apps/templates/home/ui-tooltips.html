@@ -1,0 +1,64 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Tooltips {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <main>
+        
+        {% include 'includes/preloader.html' %}
+
+        <!-- Hero -->
+        <div class="section-header pb-6 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="display-3 mb-4">Tooltips</h1>
+                        <p class="lead mb-5">Use Pixel's custom tooltips to indicate extra information when hovering over certain elements.</p>
+                        <div class="alert bg-secondary" role="alert">
+                            <span class="fas fa-info-circle"></span>
+                            <a class="fw-bold text-white text-underline mx-1" href="https://themesberg.com/docs/pixel-bootstrap/components/tooltips/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Hero -->
+        
+        <!-- Section -->
+        <div class="section section-md">
+            <div class="container">
+                <!-- End of Title -->
+                <div class="row mt-5">
+                    <div class="col-lg-12 d-block d-md-flex justify-content-around">
+                        <button type="button" class="btn btn-secondary btn-sm me-4 mb-4" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Tooltip on top">
+                            Tooltip on top
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-sm me-4 mb-4" data-bs-toggle="tooltip"
+                            data-bs-placement="right" title="Tooltip on right">
+                            Tooltip on right
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-sm me-4 mb-4" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Tooltip on bottom">
+                            Tooltip on bottom
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-sm me-4 mb-4" data-bs-toggle="tooltip"
+                            data-bs-placement="left" title="Tooltip on left">
+                            Tooltip on left
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Section -->
+
+    </main>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
