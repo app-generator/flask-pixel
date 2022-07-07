@@ -5,12 +5,7 @@
 - 👉 [Flask Pixel Lite](https://appseed.us/product/pixel-bootstrap/flask/) - product page
 - 👉 [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Deployment
 - 👉 [Complete documentation](https://docs.appseed.us/products/flask-apps/pixel-lite) - `Learn how to use and update the product`
-  - ✅ [Set up the environment](https://docs.appseed.us/products/flask-apps/pixel-lite#environment)
-  - ✅ [Start the app in Docker](https://docs.appseed.us/products/flask-apps/pixel-lite#start-the-app-in-docker)
-  - ✅ [Manual Build](https://docs.appseed.us/products/flask-apps/pixel-lite#manual-build)
-  - ✅ [UI Assets and Templates](https://docs.appseed.us/products/flask-apps/pixel-lite#ui-assets-and-templates)
-  - ✅ [Set up the MySql Database](https://docs.appseed.us/products/flask-apps/pixel-lite#set-up-the-mysql-database)
-  - ✅ [Static Assets for production](https://docs.appseed.us/products/flask-apps/pixel-lite#static-assets-for-production)  
+- ✅ [PRO Version Available](#pro-version) - `enhanced UI` and more `features`
   
 <br />
 
@@ -252,7 +247,7 @@ The project is coded using blueprints, app factory pattern, dual configuration p
 
 <br />
 
-## ✨ PRO Version
+## PRO Version
 
 > For more components, pages and priority on support, feel free to take a look at this amazing starter:
 
