@@ -270,24 +270,23 @@ $ heroku create
 
 <br />
 
-> **Step 4** - Push Sources to `HEROKU`
-
-```bash
-$ git push heroku HEAD:master
-```
-
-<br />
-
-> **Step 5** - Srt up the APP Environemnt in `HEROKU` (`.env` file is ignored by the platform)
+> **Step 4** - Access the HEROKU dashboard and update the environment variables. This step is mandatory because HEROKU ignores the `.env`.
 
 - `DEBUG`=True
 - `FLASK_APP`=run.py
-- `FLASK_ENV`=development
 - `ASSETS_ROOT`=/static/assets
 
 ![AppSeed - HEROKU Set UP](https://user-images.githubusercontent.com/51070104/171815176-c1ca7681-38cc-4edf-9ecc-45f93621573d.jpg)
 
 <br />
+
+> **Step 5** - Push Sources to `HEROKU`
+
+```bash
+$ git push heroku HEAD:master
+```
+
+<br /> 
 
 > **Step 6** - Visit the app in the browser
 
