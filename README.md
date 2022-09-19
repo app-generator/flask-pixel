@@ -245,7 +245,7 @@ The project is coded using blueprints, app factory pattern, dual configuration p
 
 <br />
 
-> **Step 1** - Download the code from the GH repository (using `GIT`) 
+> 👉 **Step 1** - Download the code from the GH repository (using `GIT`) 
 
 ```bash
 $ git clone https://github.com/app-generator/flask-pixel.git
@@ -254,7 +254,7 @@ $ cd flask-pixel
 
 <br />
 
-> **Step 2** - Connect to `HEROKU` using the console
+> 👉 **Step 2** - Connect to `HEROKU` using the console
 
 ```bash
 $ # This will open a browser window - click the login button (in browser)
@@ -262,7 +262,7 @@ $ heroku login
 ```
 <br />
 
-> **Step 3** - Create the `HEROKU` project
+> 👉 **Step 3** - Create the `HEROKU` project
 
 ```bash
 $ heroku create
@@ -270,7 +270,7 @@ $ heroku create
 
 <br />
 
-> **Step 4** - Access the HEROKU dashboard and update the environment variables. This step is mandatory because HEROKU ignores the `.env`.
+> 👉 **Step 4** - Access the HEROKU dashboard and update the environment variables. This step is mandatory because HEROKU ignores the `.env`.
 
 - `DEBUG`=True
 - `FLASK_APP`=run.py
@@ -280,7 +280,7 @@ $ heroku create
 
 <br />
 
-> **Step 5** - Push Sources to `HEROKU`
+> 👉 **Step 5** - Push Sources to `HEROKU`
 
 ```bash
 $ git push heroku HEAD:master
@@ -288,7 +288,7 @@ $ git push heroku HEAD:master
 
 <br /> 
 
-> **Step 6** - Visit the app in the browser
+> 👉 **Step 6** - Visit the app in the browser
 
 ```bash
 $ heroku open
@@ -298,7 +298,7 @@ At this point, the APP should be up & running.
 
 <br />
 
-> **Step 7** (Optional) - Visualize `HEROKU` logs
+> 👉 **Step 7** (Optional) - Visualize `HEROKU` logs
 
 ```bash
 $ heroku logs --tail
