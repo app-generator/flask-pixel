@@ -27,7 +27,6 @@
 > **Step 1** - Download the code from the GH repository (using `GIT`) 
 
 ```bash
-$ # Get the code
 $ git clone https://github.com/app-generator/flask-pixel.git
 $ cd flask-pixel
 ```
@@ -90,8 +89,7 @@ DB_HOST=localhost             # Database HOST, default is localhost
 DB_PORT=3306                  # MySql port, default = 3306 
 ```
 
-<br />
-
+<br /> 
 
 ## ✨ How to use it
 
@@ -250,9 +248,8 @@ The project is coded using blueprints, app factory pattern, dual configuration p
 > **Step 1** - Download the code from the GH repository (using `GIT`) 
 
 ```bash
-$ # Get the code
-$ git clone https://github.com/appseed-projects/<YOUR_BUILD_ID>.git
-$ cd <YOUR_BUILD_ID>
+$ git clone https://github.com/app-generator/flask-pixel.git
+$ cd flask-pixel
 ```
 
 <br />
@@ -295,7 +292,7 @@ $ git push heroku HEAD:master
 > **Step 6** - Visit the app in the browser
 
 ```bash
-$ $ heroku open
+$ heroku open
 ```
 
 At this point, the APP should be up & running. 
