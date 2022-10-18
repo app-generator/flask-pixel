@@ -8,7 +8,7 @@
   
 <br />
 
-> 🚀 Built with [App Generator](https://appseed.us/generator), Timestamp: `2022-05-31 08:12`
+> 🚀 Built with [App Generator](https://appseed.us/generator/), Timestamp: `2022-05-31 08:12`
 
 - ✅ `Up-to-date dependencies`
 - ✅ Database: `sqlite`
