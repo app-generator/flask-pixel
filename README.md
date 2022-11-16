@@ -5,7 +5,7 @@
 - 👉 [Flask Pixel Lite](https://appseed.us/product/pixel-bootstrap/flask/) - product page
 - 👉 [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Deployment
 - ✅ Compatible with [LIVE Deployer](https://appseed.us/go-live/)
-  - `Drag & Drop` deployment service 
+  - [Deploy Flask with Drag & Drop](https://youtu.be/InVMfrzEwBQ) - `video material` 
   
 <br />
 

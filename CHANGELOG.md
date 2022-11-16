@@ -4,7 +4,7 @@
 ### Improvements
 
 - Compatible with [LIVE Deployer](https://appseed.us/go-live/)
-  - `Drag & Drop` deployment service 
+  - [Deploy Flask with Drag & Drop](https://youtu.be/InVMfrzEwBQ) - `video material`
 
 ## [1.0.8] 2022-05-30
 ### Improvements
