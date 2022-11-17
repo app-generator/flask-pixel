@@ -142,6 +142,16 @@ By default, the app redirects guest users to authenticate. In order to access th
 
 <br />
 
+## ✨ `Go LIVE` via [LIVE Deployer](https://appseed.us/go-live/)
+
+> This video explains `how to deploy` the product LIVE using a `Drag & Drop` gesture.
+
+<br />
+
+https://user-images.githubusercontent.com/51070104/202417375-81273bef-367b-406e-ac84-7f6f85070f10.mp4
+
+<br />
+
 ## ✨ Code-base structure
 
 The project is coded using blueprints, app factory pattern, dual configuration profile (development and production) and an intuitive structure presented bellow:
