@@ -18,6 +18,7 @@
 - ✅ Docker, `Flask-Minify` (page compression)
 - 🚀 `Deployment` 
   - `CI/CD` flow via `Render`
+  - [Flask Pixel Lite - Go LIVE](https://www.youtube.com/watch?v=VuJ2mt3kTmc) (`video presentation`)  
 
 <br />
 

@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.12] 2023-01-03
+### Changes
+
+- `DOCS Update` (readme)
+  - [Flask Pixel Lite - Go LIVE](https://www.youtube.com/watch?v=VuJ2mt3kTmc) (`video presentation`)
+
 ## [1.0.11] 2023-01-03
 ### Changes
 
