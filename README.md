@@ -4,18 +4,20 @@
 
 - 👉 [Flask Pixel Lite](https://appseed.us/product/pixel-bootstrap/flask/) - product page
 - 👉 [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Deployment
-- ✅ Compatible with [LIVE Deployer](https://appseed.us/go-live/)
-  - [Deploy Flask Pixel with Drag & Drop](https://youtu.be/InVMfrzEwBQ) - `video material` 
+- 👉 Free [Support](https://appseed.us/support/) via `Email` & `Discord`
   
 <br />
 
 > 🚀 Built with [App Generator](https://appseed.us/generator/), Timestamp: `2022-05-31 08:12`
 
 - ✅ `Up-to-date dependencies`
-- ✅ Database: `sqlite`
+- ✅ `Database`: `SQLite`, MySql
+  - Silent fallback to `SQLite`
 - ✅ `DB Tools`: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 - ✅ Session-Based authentication (via **flask_login**), Forms validation
-- ✅ `Docker`
+- ✅ Docker, `Flask-Minify` (page compression)
+- 🚀 `Deployment` 
+  - `CI/CD` flow via `Render`
 
 <br />
 
