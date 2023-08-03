@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.13] 2023-08-03
+### Changes
+
+- Update DOCS (readme)
+  - SCSS/CSS procedure using PNPM
+
 ## [1.0.12] 2023-01-03
 ### Changes
 

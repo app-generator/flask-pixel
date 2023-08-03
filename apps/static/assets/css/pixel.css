@@ -181,9 +181,6 @@
 .datepicker-cell.prev:not(.disabled), .datepicker-cell.next:not(.disabled) {
   color: #7a7a7a; }
 
-.datepicker-cell.prev.selected, .datepicker-cell.next.selected {
-  color: #e6e6e6; }
-
 .datepicker-cell.highlighted:not(.selected):not(.range):not(.today) {
   border-radius: 0;
   background-color: whitesmoke; }
@@ -588,9 +585,6 @@ legend {
 
 ::-webkit-color-swatch-wrapper {
   padding: 0; }
-
-::-webkit-file-upload-button {
-  font: inherit; }
 
 ::file-selector-button {
   font: inherit; }
@@ -2192,26 +2186,10 @@ progress {
   .form-control:disabled, .form-control[readonly] {
     background-color: #F3F4F6;
     opacity: 1; }
-  .form-control::-webkit-file-upload-button {
-    padding: 0.55rem 0.75rem;
-    margin: -0.55rem -0.75rem;
-    -webkit-margin-end: 0.75rem;
-            margin-inline-end: 0.75rem;
-    color: #4B5563;
-    background-color: #ffffff;
-    pointer-events: none;
-    border-color: inherit;
-    border-style: solid;
-    border-width: 0;
-    border-inline-end-width: 0.0625rem;
-    border-radius: 0;
-    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   .form-control::file-selector-button {
     padding: 0.55rem 0.75rem;
     margin: -0.55rem -0.75rem;
-    -webkit-margin-end: 0.75rem;
-            margin-inline-end: 0.75rem;
+    margin-inline-end: 0.75rem;
     color: #4B5563;
     background-color: #ffffff;
     pointer-events: none;
@@ -2222,20 +2200,14 @@ progress {
     border-radius: 0;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
     @media (prefers-reduced-motion: reduce) {
-      .form-control::-webkit-file-upload-button {
-        -webkit-transition: none;
-        transition: none; }
       .form-control::file-selector-button {
         transition: none; } }
-  .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
-    background-color: #f2f2f2; }
   .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
     background-color: #f2f2f2; }
   .form-control::-webkit-file-upload-button {
     padding: 0.55rem 0.75rem;
     margin: -0.55rem -0.75rem;
-    -webkit-margin-end: 0.75rem;
-            margin-inline-end: 0.75rem;
+    margin-inline-end: 0.75rem;
     color: #4B5563;
     background-color: #ffffff;
     pointer-events: none;
@@ -2272,42 +2244,28 @@ progress {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   border-radius: 0.6rem; }
-  .form-control-sm::-webkit-file-upload-button {
-    padding: 0.25rem 0.5rem;
-    margin: -0.25rem -0.5rem;
-    -webkit-margin-end: 0.5rem;
-            margin-inline-end: 0.5rem; }
   .form-control-sm::file-selector-button {
     padding: 0.25rem 0.5rem;
     margin: -0.25rem -0.5rem;
-    -webkit-margin-end: 0.5rem;
-            margin-inline-end: 0.5rem; }
+    margin-inline-end: 0.5rem; }
   .form-control-sm::-webkit-file-upload-button {
     padding: 0.25rem 0.5rem;
     margin: -0.25rem -0.5rem;
-    -webkit-margin-end: 0.5rem;
-            margin-inline-end: 0.5rem; }
+    margin-inline-end: 0.5rem; }
 
 .form-control-lg {
   min-height: calc(1.5em + 1.125rem);
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 0.3rem; }
-  .form-control-lg::-webkit-file-upload-button {
-    padding: 0.5rem 1rem;
-    margin: -0.5rem -1rem;
-    -webkit-margin-end: 1rem;
-            margin-inline-end: 1rem; }
   .form-control-lg::file-selector-button {
     padding: 0.5rem 1rem;
     margin: -0.5rem -1rem;
-    -webkit-margin-end: 1rem;
-            margin-inline-end: 1rem; }
+    margin-inline-end: 1rem; }
   .form-control-lg::-webkit-file-upload-button {
     padding: 0.5rem 1rem;
     margin: -0.5rem -1rem;
-    -webkit-margin-end: 1rem;
-            margin-inline-end: 1rem; }
+    margin-inline-end: 1rem; }
 
 textarea.form-control {
   min-height: calc(1.5em + 1.225rem); }
@@ -6148,8 +6106,7 @@ textarea.form-control-lg {
   float: left;
   width: 100%;
   margin-right: -100%;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   transition: transform 0.6s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
     .carousel-item {
@@ -16072,7 +16029,6 @@ textarea.form-control-lg {
       overflow: hidden;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
       border-radius: 1rem;
-      -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
       transform: rotateY(24deg); }
       .card-box .card-component .front:hover {
@@ -16888,7 +16844,6 @@ label {
     -ms-justify-content: center;
     justify-content: center;
     -ms-flex-pack: center;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     position: absolute;
     border-radius: 1rem;
@@ -16975,8 +16930,7 @@ label {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .rotating-card-container .card .front,
   .rotating-card-container .card .back {
-    -webkit-backface-visibility: visible;
-            backface-visibility: visible; }
+    backface-visibility: visible; }
   .rotating-card-container .card .back {
     visibility: hidden;
     transition: visibility 0.3s cubic-bezier(0.34, 1.45, 0.7, 1); }
