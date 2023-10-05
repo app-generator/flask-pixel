@@ -1,6 +1,6 @@
 # [Flask Pixel Lite](https://appseed.us/product/pixel-bootstrap/flask/)
 
-`Open-Source` **[Flask App](https://appseed.us/apps/flask/)** crafted by on top of a modern design. `Pixel` is a free and open-source `Bootstrap 5` UI Kit featuring over 80 fully coded UI elements and example pages that will help you prototype and build a website for your next project.
+`Open-Source` **[Flask App](https://appseed.us/apps/flask/)** crafted on top of a modern design. `Pixel` is a free and open-source `Bootstrap 5` UI Kit featuring over 80 fully coded UI elements and example pages that will help you prototype and build a website for your next project.
 
 - 👉 [Flask Pixel Lite](https://appseed.us/product/pixel-bootstrap/flask/) - product page
 - 👉 [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Deployment
