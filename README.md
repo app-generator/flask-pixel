@@ -8,7 +8,15 @@
   
 <br />
 
-> 🚀 Built with [App Generator](https://appseed.us/generator/), Timestamp: `2022-05-31 08:12`
+## 🚀 **[Black Friday Campaign](https://appseed.us/)** is LIVE: `70%Off`
+
+> `React`, `Django`, `Flask`, and `NodeJs` starters crafted and actively supported by **AppSeed**
+ 
+[![](https://github-production-user-asset-6210df.s3.amazonaws.com/51070104/280080081-1e7c91c0-612f-4418-81e7-34c363378479.jpg)](https://appseed.us/)
+
+<br />
+
+## Features
 
 - ✅ `Up-to-date dependencies`
 - ✅ `Database`: `SQLite`, MySql
