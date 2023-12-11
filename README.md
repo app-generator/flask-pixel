@@ -5,14 +5,6 @@
 - 👉 [Flask Pixel Lite](https://appseed.us/product/pixel-bootstrap/flask/) - product page
 - 👉 [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Deployment
 - 👉 Free [Support](https://appseed.us/support/) via `Email` & `Discord`
-  
-<br />
-
-## 🚀 **[Black Friday Campaign](https://appseed.us/)** is LIVE: `65%Off`
-
-> `React`, `Django`, `Flask`, and `NodeJs` starters crafted and actively supported by **AppSeed**
- 
-[![](https://github-production-user-asset-6210df.s3.amazonaws.com/51070104/280080081-1e7c91c0-612f-4418-81e7-34c363378479.jpg)](https://appseed.us/)
 
 <br />
 
