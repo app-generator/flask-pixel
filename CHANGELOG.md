@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.14] 2023-08-03
+### Changes
+
+- Docs Update (readme)
+- Added infos for [Flask Pixel PRO](https://appseed.us/product/pixel-bootstrap-pro/flask/)
+  - Added [LIVE Demo PRO](https://flask-pixel-enhanced.onrender.com/) powered by `Flask-Security-Too`
+
 ## [1.0.13] 2023-08-03
 ### Changes
 
