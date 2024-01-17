@@ -16,7 +16,7 @@
 | ✓ **Up-to-date dependencies**             | **Everything in Free**, plus:                                        | **Everything in PRO**, plus:      |
 | ✓ Best Practices                          | ✅ **Premium Bootstrap 5 Design**                                    | ✅ **1mo Custom Development**     | 
 | ✓ DB: SQLite, MySql                       | ✅ `Auth` Provided by **Flask-Security-Too**                         | ✅ **Dedicated Developer**        |
-| ✓ DB Tools: SQLAlchemy ORM, Flask-Migrate | ✅ `Extended User Model`                                             | ✅ Weekly Sprints                 |
+| ✓ DB Tools: ORM, Flask-Migrate            | ✅ `Extended User Model`                                             | ✅ Weekly Sprints                 |
 | ✓ Session-Based authenticatio             | ✅ `Users Roles`                                                      | ✅ Technical SPECS                |
 | ✓ `Docker`                                | ✅ `Private REPO Access`                                             | ✅ Documentation                  |
 | ✓ `CI/CD` Flow via Render                 | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)  | ✅ **30 days Delivery Warranty**  |
