@@ -17,7 +17,7 @@
 | ✓ Best Practices                          | ✅ **Premium Bootstrap 5 Design**                                    | ✅ **1mo Custom Development**     | 
 | ✓ DB: SQLite, MySql                       | ✅ `Auth` Provided by **Flask-Security-Too**                         | ✅ **Dedicated Developer**        |
 | ✓ DB Tools: ORM, Flask-Migrate            | ✅ `Extended User Model`                                             | ✅ Weekly Sprints                 |
-| ✓ Session-Based authenticatio             | ✅ `Users Roles`                                                      | ✅ Technical SPECS                |
+| ✓ Session-Based authentication            | ✅ `Users Roles`                                                      | ✅ Technical SPECS                |
 | ✓ `Docker`                                | ✅ `Private REPO Access`                                             | ✅ Documentation                  |
 | ✓ `CI/CD` Flow via Render                 | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)  | ✅ **30 days Delivery Warranty**  |
 | ✓ `Free Support`                          | ✅ Deployment Assistance                                             |  -                                |
