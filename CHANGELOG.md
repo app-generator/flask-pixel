@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.16] 2024-10-28
+### Changes
+
+- `SECRET_KEY`: remove the random string if not found
+- Update Versions
+- Fix for Python 13
+
 ## [1.0.15] 2024-05-18
 ### Changes
 
