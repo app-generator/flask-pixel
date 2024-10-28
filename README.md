@@ -9,7 +9,7 @@
 
 <br /> 
 
-## Deploy on `Render`
+## Deploy on `Render` (free plan)
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
