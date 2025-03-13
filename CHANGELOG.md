@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.18] 2025-03-13
+### Changes
+
+- Update Product Links to [App-Generator](https://app-generator.dev/) Service   
+- [Flask Material Kit](https://app-generator.dev/product/pixel-bootstrap/flask/) - `Product Page`
+- [Flask Material Kit](https://flask-pixel-lite.appseed-srv1.com/) - `LIVE Demo` 
+- [Flask Material Kit](https://app-generator.dev/docs/products/flask/pixel/index.html) - `Complete Information` and Support Links
+
 ## [1.0.17] 2024-10-28
 ### Changes
 
